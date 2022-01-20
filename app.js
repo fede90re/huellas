@@ -16,20 +16,20 @@ app.listen(3000, () => console.log("es la hora de brillar.."));
 //Ruta a Home
 
 app.get("/", function (req, res) {
-    const htmlHome = path.resolve(__dirname, "./views/index.html")
+    const htmlHome = path.join(__dirname, "./views/index.html")
     res.sendFile(htmlHome);
 })
 
 //Ruta a Loggin
 
 app.get("/login", function (req, res) {
-    const htmlLogin = path.resolve(__dirname, "./views/login.html")
+    const htmlLogin = path.join(__dirname, "./views/login.html")
     res.sendFile(htmlLogin);
 })
 
 //Ruta a Registro
 
 app.get("/registro", function (req, res) {
-    const htmlRegistro = path.resolve(__dirname, "./views/registro.html")
+    const htmlRegistro = path.join(__dirname, "./views/registro.html")
     res.sendFile(htmlRegistro);
 })
