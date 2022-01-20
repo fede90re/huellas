@@ -32,6 +32,14 @@
     border: black 1px solid;
 }
 
+.titulo-imagen {
+    width: 450px;
+    height: 30px;
+    background-color: rgb(33, 37, 41);
+    color: rgb(213, 185, 181);
+    text-align: center;
+}
+
 .contenedor2 :hover {
     box-shadow: 10px 5px 5px black;
 }
