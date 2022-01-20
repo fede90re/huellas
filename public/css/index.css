@@ -26,10 +26,14 @@
     padding: 30px;
 }
 
-.h {
+.class-img {
     width: 450px;
     height: 300px;
     border: black 1px solid;
+}
+
+.contenedor2 :hover {
+    box-shadow: 10px 5px 5px black;
 }
 
 .logo {
@@ -60,12 +64,15 @@ div {
 }
 
 .frase-footer {
-    padding: 20px;
+    padding: 5px;
+    margin-top: 20px;
+    margin-left: 10px;
 }
 
 .derechos-footer {
-    padding: 20px;
-    margin-left: 400px;
+    padding: 5px;
+    margin-left: 480px;
+    margin-top: 20px;
 }
 
 section div {
