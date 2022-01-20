@@ -56,23 +56,40 @@ div {
 .footer-class {
     background-color: rgb(159, 159, 159);
     border: 1px dotted black;
+    display: flex;
+    justify-content: space-between;
 }
 
 .footer-contenedor {
     display: flex;
-    font-size: 12px;
+    flex-direction: row;
+    font-size: 10px;
+    width: 100%;
 }
 
 .frase-footer {
+    display: flex;
+    justify-content: flex-start;
+    text-align: center;
     padding: 5px;
-    margin-top: 20px;
-    margin-left: 10px;
+    margin-top: 7%;
 }
 
 .derechos-footer {
+    display: flex;
+    justify-content: flex-end;
+    text-align: center;
     padding: 5px;
-    margin-left: 480px;
-    margin-top: 20px;
+    margin-left: 200px;
+    margin-top: 3%;
+    padding-right: 215px;
+}
+
+.lista {
+    display: flex;
+    padding: 5px;
+    margin-top: 11%;
+    margin-left: 10px;
 }
 
 section div {
@@ -82,12 +99,22 @@ section div {
 }
 
 .corazon {
-    color: red;
+    color: #aa0d3f;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 .perro {
+    padding-left: 5px;
+    padding-right: 5px;
     color: rgb(124, 54, 13);
 }
 .gato {
     color: rgb(79, 79, 79);
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.redes {
+    color: black;
+    margin-left: 5px;
 }
