@@ -4,13 +4,15 @@
     "description": "",
     "main": "app.js",
     "scripts": {
-        "start": "node app",
-        "test": "nodemon src/app.js"
+        "start": "nodemon -e js app.js"
     },
     "author": "",
     "license": "ISC",
     "dependencies": {
         "express": "^4.17.2",
         "fs-extra": "^10.0.0"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.15"
     }
 }
