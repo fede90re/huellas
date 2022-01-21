@@ -33,11 +33,13 @@
 }
 
 .titulo-imagen {
+    margin-bottom: 5px;
     width: 450px;
-    height: 30px;
+    height: 35px;
     background-color: rgb(33, 37, 41);
     color: rgb(213, 185, 181);
     text-align: center;
+    font-size: 23px;
 }
 
 .contenedor2 :hover {

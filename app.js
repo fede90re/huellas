@@ -1,5 +1,5 @@
 const express = require("express");
-const res = require("express/lib/response");
+
 //con la const app puedo utilizar la funcion express con todas sus utilidades.
 const app = express();
 //path lo utilizo para poder leer las rutas absolutas.
@@ -32,4 +32,18 @@ app.get("/login", function (req, res) {
 app.get("/registro", function (req, res) {
     const htmlRegistro = path.join(__dirname, "./views/registro.html")
     res.sendFile(htmlRegistro);
+})
+
+//Ruta a Gatos
+
+app.get("/gatos", function (req, res) {
+    const htmlGatos = path.join(__dirname, "./views/gatos.html")
+    res.sendFile(htmlGatos);
+})
+
+//Ruta a Perros
+
+app.get("/perros", function (req, res) {
+    const htmlPerros = path.join(__dirname, "/views/perros.html")
+    res.sendFile(htmlPerros);
 })
