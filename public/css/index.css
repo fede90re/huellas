@@ -22,7 +22,7 @@
     justify-content: center;
 }
 
-.contenedor2 {
+.contenedor-tarjeta {
     padding: 30px;
 }
 
@@ -42,7 +42,7 @@
     font-size: 23px;
 }
 
-.contenedor2 :hover {
+.contenedor-tarjeta :hover {
     box-shadow: 10px 5px 5px black;
 }
 
