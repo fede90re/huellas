@@ -4,127 +4,137 @@
     box-sizing: border-box;
     font-family: "Quicksand", sans-serif;
 }
-.color-huellitas {
-    color: rgb(213, 185, 181);
-    font-size: 20px;
-    border-radius: 5px;
-}
 
-.color-huellitas:hover {
-    background-color: azure;
-    color: rgb(213, 185, 181);
-    font-weight: bolder;
+@media (min-width: 767px) {
 }
+@media (min-width: 1100px) {
+    .contenedor-header {
+        background-color: rgb(33, 37, 41);
+    }
 
-.contenedor1 {
-    background-color: rgb(213, 185, 181);
-    display: flex;
-    justify-content: center;
-}
+    .frase-header {
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        margin-left: 30%;
+        padding-top: 50px;
+        color: white;
+    }
 
-.contenedor-tarjeta {
-    padding: 30px;
-}
+    .frase-header h3 {
+        font-size: 20px;
+        font-style: normal;
+    }
 
-.class-img {
-    width: 450px;
-    height: 300px;
-    border: black 1px solid;
-}
+    .contenedor-frase-header {
+        display: flex;
+    }
 
-.titulo-imagen {
-    margin-bottom: 5px;
-    width: 450px;
-    height: 35px;
-    background-color: rgb(33, 37, 41);
-    color: rgb(213, 185, 181);
-    text-align: center;
-    font-size: 23px;
-}
+    .nav-header {
+        display: flex;
+        list-style: none;
+    }
 
-.contenedor-tarjeta :hover {
-    box-shadow: 10px 5px 5px black;
-}
+    .nav-header2 {
+        display: flex;
+        margin-left: 80%;
+    }
 
-.logo {
-    margin-left: 10px;
-    width: 100px;
-    height: 100px;
-    margin-top: 20px;
-}
+    ul li a {
+        text-decoration: none;
+    }
 
-.frase-header {
-    flex-direction: column;
-    text-align: center;
-    padding-top: 50px;
-}
+    .color-huellitas {
+        color: rgb(213, 185, 181);
+        font-size: 20px;
+        border-radius: 5px;
+        padding: 8px 16px;
+    }
 
-div {
-    display: flex;
-}
+    .color-huellitas:hover {
+        background-color: azure;
+        color: rgb(213, 185, 181);
+        font-weight: bolder;
+    }
 
-.footer-class {
-    background-color: rgb(159, 159, 159);
-    border: 1px dotted black;
-    display: flex;
-    justify-content: space-between;
-}
+    .contenedor1 {
+        background-color: rgb(213, 185, 181);
+        display: flex;
+        justify-content: center;
+    }
 
-.footer-contenedor {
-    display: flex;
-    flex-direction: row;
-    font-size: 10px;
-    width: 100%;
-}
+    .contenedor-tarjeta {
+        padding: 30px;
+    }
 
-.frase-footer {
-    display: flex;
-    justify-content: flex-start;
-    text-align: center;
-    padding: 5px;
-    margin-top: 7%;
-}
+    .class-img {
+        width: 450px;
+        height: 300px;
+        border: black 1px solid;
+    }
 
-.derechos-footer {
-    display: flex;
-    justify-content: flex-end;
-    text-align: center;
-    padding: 5px;
-    margin-left: 200px;
-    margin-top: 3%;
-    padding-right: 215px;
-}
+    .titulo-imagen {
+        width: 450px;
+        height: 35px;
+        background-color: rgb(33, 37, 41);
+        color: rgb(213, 185, 181);
+        text-align: center;
+        font-size: 23px;
+        line-height: 1.5;
+    }
 
-.lista {
-    display: flex;
-    padding: 5px;
-    margin-top: 11%;
-    margin-left: 10px;
-}
+    .contenedor-tarjeta :hover {
+        box-shadow: 10px 5px 5px black;
+    }
 
-section div {
-    color: black;
-    font-style: italic;
-    font-weight: bolder;
-}
+    .logo {
+        margin-left: 30px;
+        width: 150px;
+        height: 150px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
 
-.corazon {
-    color: #aa0d3f;
-    padding-left: 5px;
-    padding-right: 5px;
-}
+    div {
+        display: flex;
+    }
 
-.perro {
-    padding-left: 5px;
-    padding-right: 5px;
-    color: rgb(124, 54, 13);
-}
-.gato {
-    color: rgb(79, 79, 79);
-    padding-left: 5px;
-    padding-right: 5px;
-}
-.redes {
-    color: black;
-    margin-left: 5px;
+    .footer-class {
+        background-color: rgb(159, 159, 159);
+        border: 1px dotted black;
+    }
+
+    .footer-contenedor {
+        display: flex;
+        justify-content: space-between;
+        padding: 16px;
+    }
+
+    section div {
+        color: black;
+        font-style: italic;
+        font-weight: bolder;
+    }
+
+    .corazon {
+        color: #aa0d3f;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .perro {
+        padding-left: 5px;
+        padding-right: 5px;
+        color: rgb(124, 54, 13);
+    }
+    .gato {
+        color: rgb(79, 79, 79);
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .redes {
+        color: black;
+        margin-left: 5px;
+        font-size: 19px;
+    }
 }

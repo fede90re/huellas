@@ -5,115 +5,88 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Huellitas</title>
-        <!--link de Bootstrap-->
-        <link
-            href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
-            rel="stylesheet"
-            integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
-            crossorigin="anonymous"
-        />
+
         <!--link de tipografia mulish-->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-rel="stylesheet" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet" />
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
         <!--link de libreria normalize para que tengan estilos basicos en todos los navegadores-->
-        <link rel="stylesheet" href="/css/normalize.css"/>
-        
+        <link rel="stylesheet" href="/css/normalize.css" />
+
         <!--link de enlace a mi hoja de css-->
         <link rel="stylesheet" href="/css/index.css" />
-
     </head>
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-             <a href="/"> <img src="/img/logo-oscuro.jpg" class="col-2 logo" /></a>
-            <div class="container-fluid frase-header">
-                <h3 class="navbar-brand">Nos dedicamos a rescatar animales y buscarles un hogar.</h3>
-                <h3 class="navbar-brand">Adopta! No compres!</h3>
-            </div>
-        </nav>
-            <ul class="nav justify-content-end bg-dark">
-                <li class="nav-item">
-                    <a class="nav-link color-huellitas" href="/">Información</a>
+    <body>
+        <header class="contenedor-header">
+            <section>
+                <nav class="contenedor-frase-header">
+                    <a href="/"> <img src="/img/logo-oscuro.jpg" class="logo" /></a>
+                    <div class="frase-header">
+                        <h3>Nos dedicamos a rescatar animales y buscarles un hogar.</h3>
+                        <h3>Adopta! No compres!</h3>
+                    </div>
+                </nav>
+            </section>
+            <ul class="nav-header">
+                <li>
+                    <a class="color-huellitas" href="/">Información</a>
                 </li>
-           
-                <li class="nav-item">
-                    <a class="nav-link active color-huellitas" href="/login">Login</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link color-huellitas" href="/registro">Registrate</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link disabled"></a>
-                </li>
+                <section class="nav-header2">
+                    <li>
+                        <a class="color-huellitas" href="/login">Login</a>
+                    </li>
+                    <li>
+                        <a class="color-huellitas" href="/registro">Registrate</a>
+                    </li>
+                </section>
             </ul>
-    </header>
-<section class="contenedor1">
-    <article class="contenedor-tarjeta">
-        <img class="class-img" src="/img/760-510.jpg">
-         <h3 class="titulo-imagen">Adoptar un perro</h3>
-    </article>
-    <article class="contenedor-tarjeta">
-        <img class="class-img" src="/img/gato1.jpg">
-         <h3 class="titulo-imagen">Adoptar un gato</h3>
-    </article>
-</section>
-<section class="contenedor1">
-   <article class="contenedor-tarjeta">
-        <img class="class-img" src="/img/veterinario.jpg">
-         <h3 class="titulo-imagen">Donar dinero</h3>
-    </article>
-    <article class="contenedor-tarjeta">
-        <img class="class-img" src="/img/perros-gatos.jpg">
-        <h3 class="titulo-imagen">Ofrecer transito</h3>
-    </article>
-</section>
-<footer class="footer-class">
-    <section class="footer-contenedor">
-        <div>
-            <p class="frase-footer">Hecho con <i class="fas fa-heart corazon"></i> para ayudar a nuestros amigos <i class="fas fa-dog perro"></i>  y  <i class="fas fa-cat gato"></i>.</p>
-        </div>
-            <div>
-            <p class="derechos-footer">2022 - Huellitas - Todos los derechos reservados.</p>
-        </div> 
-        <div>
-             <ul class="lista">Buscanos también en:
-                <a href="https://www.facebook.com/people/Huellitas-La-Plata/100076843951591/" target="_blank"><i class="fab fa-facebook redes"></i></a>
-                <a href="https://www.instagram.com/huellitas.lp/?hl=es" target="_blank"><i class="fab fa-instagram redes"></i></a>
-                <a href="#"><i class="fab fa-twitter redes"></i></a>
-             </ul>
-        </div>
-    </section>
-</footer>
+        </header>
+        <section class="contenedor1">
+            <article class="contenedor-tarjeta">
+                <h3 class="titulo-imagen">Adoptar un perro</h3>
+                <img class="class-img" src="/img/760-510.jpg" />
+            </article>
+            <article class="contenedor-tarjeta">
+                <h3 class="titulo-imagen">Adoptar un gato</h3>
+                <img class="class-img" src="/img/gato1.jpg" />
+            </article>
+        </section>
+        <section class="contenedor1">
+            <article class="contenedor-tarjeta">
+                <h3 class="titulo-imagen">Donar dinero</h3>
+                <img class="class-img" src="/img/veterinario.jpg" />
+            </article>
+            <article class="contenedor-tarjeta">
+                <h3 class="titulo-imagen">Ofrecer transito</h3>
+                <img class="class-img" src="/img/perros-gatos.jpg" />
+            </article>
+        </section>
 
-
-
-
-
-
-
-
-
-
-
-        <!--link de Bootstrap-->
-        <script
-            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
-            integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
-            crossorigin="anonymous"
-        ></script>
-        <script
-            src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
-            integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
-            crossorigin="anonymous"
-        ></script>
-
-                    <!--botones
-            <div>
-                <button type="button" class="btn btn-primary">Login</button>
-                <button type="button" class="btn btn-primary">Registrate</button>
-            </div>    -->
-
+        <footer class="footer-class">
+            <section class="footer-contenedor">
+                <div>
+                    <p>
+                        Hecho con <i class="fas fa-heart corazon"></i> para ayudar a nuestros amigos <i class="fas fa-dog perro"></i> y
+                        <i class="fas fa-cat gato"></i>.
+                    </p>
+                </div>
+                <div>
+                    <p>2022 - Huellitas - Todos los derechos reservados.</p>
+                </div>
+                <div>
+                    <div>
+                        <ul class="buscanos-footer">
+                            Buscanos también en:
+                            <a href="https://www.facebook.com/people/Huellitas-La-Plata/100076843951591/" target="_blank"
+                                ><i class="fab fa-facebook redes"></i
+                            ></a>
+                            <a href="https://www.instagram.com/huellitas.lp/?hl=es" target="_blank"><i class="fab fa-instagram redes"></i></a>
+                            <a href="#"><i class="fab fa-twitter redes"></i></a>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        </footer>
     </body>
 </html>
