@@ -58,6 +58,63 @@
     line-height: 1.5;
 }
 
+.contenedor-main {
+    background-color: rgb(213, 185, 181);
+}
+
+/** termina el main **/
+
+.footer-class {
+    background-color: rgb(159, 159, 159);
+    border: 1px dotted black;
+}
+
+.footer-contenedor {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+}
+
+section div {
+    color: black;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+.buscanos-footer {
+    display: none;
+}
+
+.derechos-footer {
+    display: none;
+}
+
+.frase-footer {
+    font-size: 14px;
+}
+
+.corazon {
+    color: #aa0d3f;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.perro {
+    padding-left: 5px;
+    padding-right: 5px;
+    color: rgb(124, 54, 13);
+}
+.gato {
+    color: rgb(79, 79, 79);
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.redes {
+    color: black;
+    margin-left: 5px;
+    font-size: 19px;
+}
+
 @media (min-width: 767px) {
 }
 @media (min-width: 1100px) {
@@ -68,7 +125,7 @@
     .contenedor-header {
         display: inherit;
     }
-    /**/
+
     .frase-header {
         flex-direction: column;
         text-align: center;
@@ -77,13 +134,13 @@
         color: white;
         display: inherit;
     }
-    /**/
+
     .frase-header h3 {
         font-size: 20px;
         font-style: normal;
         font-weight: normal;
     }
-    /**/
+
     .contenedor-frase-header {
         display: flex;
     }
@@ -165,6 +222,7 @@
     div {
         display: flex;
     }
+    /**  arrranca footer **/
 
     .footer-class {
         background-color: rgb(159, 159, 159);
@@ -181,6 +239,18 @@
         color: black;
         font-style: italic;
         font-weight: bolder;
+    }
+
+    .buscanos-footer {
+        display: inherit;
+    }
+
+    .derechos-footer {
+        display: inherit;
+    }
+
+    .frase-footer {
+        font-size: 16px;
     }
 
     .corazon {
