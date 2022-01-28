@@ -21,8 +21,8 @@
     display: flex;
     color: rgb(213, 185, 181);
     font-size: 30px;
-    margin-left: 65%;
-    margin-top: 9%;
+    margin-left: 75%;
+    align-items: center;
 }
 
 .frase-header {
