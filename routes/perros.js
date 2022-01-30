@@ -7,4 +7,10 @@ router.get("/", function (req, res) {
     res.sendFile(htmlPerros);
 });
 
+
+router.get("/detalle/:id/", function (req, res) {
+    const htmlDetallePerros = path.join(__dirname, "../views/detallePerros.html")
+    res.sendFile(htmlDetallePerros);
+});
+
 module.exports = router;
