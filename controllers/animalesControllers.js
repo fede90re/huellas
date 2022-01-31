@@ -3,6 +3,7 @@ const path = require("path");
 const animalesController = {
 
     gatos: function (req, res) {
+
         res.render("gatos");
     },
     perros: function (req, res) {
@@ -15,7 +16,9 @@ const animalesController = {
         res.render("detallePerros")
     },
     detalleG: function (req, res) {
-        res.render("detalleGatos")
+        let id = req.params.id;
+
+        res.render("detalleGatos", { "id": id })
     },
 
 
