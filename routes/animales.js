@@ -1,10 +1,8 @@
 const express = require("express");
 const path = require("path");
+const animalesController = require("../controllers/animalesControllers");
 const router = express.Router()
 
-router.get("/", function (req, res) {
-    const htmlAnimales = path.join(__dirname, "../views/animales.html")
-    res.sendFile(htmlAnimales);
-});
+router.get("/", animalesController.todos);
 
 module.exports = router

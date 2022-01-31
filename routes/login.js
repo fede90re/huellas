@@ -3,7 +3,7 @@ const path = require("path");
 const router = express.Router();
 
 router.get("/", function (req, res) {
-    const htmlLogin = path.join(__dirname, "../views/login.html")
+    const htmlLogin = path.join(__dirname, "../views/login.ejs")
     res.sendFile(htmlLogin);
 })
 

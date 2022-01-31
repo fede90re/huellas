@@ -5,6 +5,9 @@ const app = express();
 //path lo utilizo para poder leer las rutas absolutas.
 const path = require("path");
 
+//con esta línea le digo a mi servidor de express que debe usar EJS para las vistas
+app.set("view engine", "ejs");
+
 //usamos la funcion static, recibe la ruta y le pido que busque la carpeta Public y la convierto en un recurso estático
 //eso quiere decir que cuando escriba una "/" ya voy a estar haciendo referencia a esa carpeta.
 app.use(express.static(path.join(__dirname, './public')));
