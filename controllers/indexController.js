@@ -3,8 +3,10 @@ const path = require("path");
 const indexController = {
 
     home: function (req, res) {
-        const htmlHome = path.join(__dirname, "../views/index.ejs")
-        res.sendFile(htmlHome);
+        res.render("index");
+    },
+    login: function (req, res) {
+        res.render("login");
     },
     registro: function (req, res) {
         res.render("registro");

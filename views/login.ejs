@@ -1,53 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Login</title>
-        <!--link de Bootstrap-->
-        <link
-            href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
-            rel="stylesheet"
-            integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
-            crossorigin="anonymous"
-        />
-        <!--link de tipografia mulish-->
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet" />
-
-        <!--link de libreria normalize para que tengan estilos basicos en todos los navegadores-->
-        <link rel="stylesheet" href="/css/normalize.css" />
-
-        <!--link de enlace a mi hoja de css-->
-        <link rel="stylesheet" href="/css/index.css" />
-        <link rel="stylesheet" href="/css/login.css" />
-    </head>
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <a href="/"> <img src="/img/logo-oscuro.jpg" class="col-2 logo" /></a>
-            <div class="container-fluid frase-header">
-                <h3 class="navbar-brand">Nos dedicamos a rescatar animales y buscarles un hogar.</h3>
-                <h3 class="navbar-brand">Adopta! No compres!</h3>
-            </div>
-        </nav>
-        <ul class="nav justify-content-end bg-dark">
-            <li class="nav-item">
-                <a class="nav-link color-huellitas" href="#">Información</a>
-            </li>
-
-            <li class="nav-item">
-                <a class="nav-link active color-huellitas" aria-current="page" href="#">Login</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link color-huellitas" href="#">Registrate</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link disabled"></a>
-            </li>
-        </ul>
-    </header>
+    <title>Login</title>
+    <link rel="stylesheet" href="/css/login.css" />
+    <%- include("partials/head.ejs") %> <%- include("partials/header.ejs") %>
     <body class="fondo">
         <form action="" method="POST" class="login-form-container">
             <div class="div-container">
@@ -62,6 +17,7 @@
                 <button type="submit" class="login-button-class">Ingresar</button>
             </div>
         </form>
+        <%- include("partials/footer.ejs") %>
         <!--link de Bootstrap-->
         <script
             src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
