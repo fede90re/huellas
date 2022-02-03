@@ -4,7 +4,14 @@
     <title>Gato</title>
     <body>
         <%- include("partials/header.ejs") %>
-
+<section>
+    <div>
+        <img src="" alt="">
+               <p><% for(let i = 0; i< id.length; i++ ){%>
+                    <div><%= id[i] %> </div>
+                                                            <%} %> </p>
+    </div>
+</section>
         <h1>estas por adoptar el gatito <%=id%></h1>
         <%- include("partials/footer.ejs") %>
     </body>
