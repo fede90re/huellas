@@ -1,8 +1,42 @@
 .contenedor-gatos {
     background-color: rgb(213, 185, 181);
-    background-attachment: fixed;
-    background-size: cover;
-    padding-top: 50px;
+    padding-top: 20px;
+}
+
+.frase-gato {
+    background-color: rgb(33, 37, 41);
+    color: rgb(213, 185, 181);
+    width: 90%;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 15px;
+    margin-left: 5%;
+    padding: 5px;
+}
+
+.contenedor2 {
+    justify-content: flex-start;
+    padding: 30px;
+    margin-top: -30px;
+}
+
+.nombre-animal {
+    background-color: rgb(33, 37, 41);
+    color: rgb(213, 185, 181);
+    text-decoration: none;
+    font-weight: bolder;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    height: 195px;
+    margin: 12%;
+    margin-bottom: 60px;
+}
+
+.imagen-animal {
+    width: 100%;
+    height: 200px;
+    border: 1px solid rgb(33, 37, 41);
 }
 
 .contenedor-perros {
@@ -11,47 +45,106 @@
     background-size: cover;
     padding-top: 50px;
 }
+@media (min-width: 520px) {
+    .imagen-animal {
+        height: 230px;
+    }
 
-.frase-gato {
-    background-color: rgb(33, 37, 41);
-    width: 90%;
-    color: rgb(213, 185, 181);
-    font-size: 50px;
-    text-align: center;
-    border-radius: 15px;
-    margin-left: 5%;
-    padding: 5px;
+    .nombre-animal {
+        margin-bottom: 95px;
+    }
 }
+@media (min-width: 767px) {
+    .contenedor-gatos {
+        padding-top: 25px;
+    }
 
-.nombre-animal {
-    background-color: rgb(33, 37, 41);
-    color: rgb(213, 185, 181);
-    font-size: 30;
-    font-weight: bolder;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    width: 22%;
-    max-height: 200px;
-    margin: 10px;
-    margin-left: 2%;
+    .frase-gato {
+        width: initial;
+        font-size: 30px;
+        margin-right: 5%;
+    }
+
+    .contenedor2 {
+        display: flex;
+        padding: 70px;
+        margin-right: 5%;
+    }
+
+    .contenedor-tarjetas {
+        width: 100%;
+    }
+
+    .nombre-animal {
+        width: 95%;
+    }
+
+    .imagen-animal {
+        max-height: 230px;
+    }
 }
+@media (min-width: 1100px) {
+    .contenedor-gatos {
+        background-color: rgb(213, 185, 181);
+        background-attachment: fixed;
+        background-size: cover;
+        padding-top: 50px;
+    }
 
-.nombre-animal :hover {
-    box-shadow: 10px 5px 5px black;
-}
+    .contenedor-perros {
+        background-color: rgb(213, 185, 181);
+        background-attachment: fixed;
+        background-size: cover;
+        padding-top: 50px;
+    }
 
-.imagen-animal {
-    width: 100%;
-    max-height: 200px;
-    border: 1px solid rgb(33, 37, 41);
-}
+    .frase-gato {
+        background-color: rgb(33, 37, 41);
+        width: 90%;
+        color: rgb(213, 185, 181);
+        font-size: 50px;
+        text-align: center;
+        border-radius: 15px;
+        margin-left: 5%;
+        padding: 5px;
+        margin-right: initial;
+    }
 
-.contenedor2 {
-    justify-content: flex-start;
-    padding: 30px;
-}
+    .nombre-animal {
+        background-color: rgb(33, 37, 41);
+        color: rgb(213, 185, 181);
+        font-size: 30;
+        font-weight: bolder;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        width: 22%;
+        max-height: 200px;
+        margin: 10px;
+        margin-left: 2%;
+    }
 
-.contenedor-tarjetas {
-    margin-top: 50px;
+    .nombre-animal :hover {
+        box-shadow: 10px 5px 5px black;
+    }
+
+    .imagen-animal {
+        width: 100%;
+        max-height: 200px;
+        border: 1px solid rgb(33, 37, 41);
+    }
+
+    .contenedor2 {
+        justify-content: flex-start;
+        display: initial;
+        flex-direction: row;
+        align-items: initial;
+        padding: 30px;
+    }
+
+    .contenedor-tarjetas {
+        margin-top: 50px;
+        width: initial;
+        text-align: initial;
+    }
 }

@@ -18,16 +18,18 @@ const animalesController = {
     },
     detalleG: function (req, res) {
         let id = req.params.id;
-        /*/let detalle = [
-            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus corporis porro, eveniet eum deleniti quod itaque aspernatur debitis cumque aliquid nihil consequuntur architecto asperiores fuga incidunt voluptatum repellendus eaque dolores.",
-            "2 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus corporis porro, eveniet eum deleniti quod itaque aspernatur debitis cumque aliquid nihil consequuntur architecto asperiores fuga incidunt voluptatum repellendus eaque dolores.",
-            "3 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus corporis porro, eveniet eum deleniti quod itaque aspernatur debitis cumque aliquid nihil consequuntur architecto asperiores fuga incidunt voluptatum repellendus eaque dolores."
-, { "detalle": detalle })
-        ]*/
+        let detalle = [
+            { id: 1, nombre: "Rodolfo y Georgina" },
+            { id: 2, nombre: "Lara" },
+            { id: 3, nombre: "Enrique" },
+            { id: 4, nombre: "Loqui" },
+            { id: 5, nombre: "Peque" },
+            { id: 6, nombre: "Marce" }
+        ]
 
         //  al pasarle el segundo parámetro puedo utilizar información en la vista con ejs, 
         //  se pueden compartir más de una variable. 
-        res.render("detalleGatos", { "id": id });
+        res.render("detalleGatos", { "id": id, "detalle": detalle });
     },
 
     editar: function () { },
