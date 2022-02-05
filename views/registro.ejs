@@ -7,7 +7,7 @@
     <body class="fondo">
         <%- include("partials/header.ejs") %>
 
-        <form action="" method="POST" class="login-form-container">
+        <form action="/registro" method="POST" class="login-form-container">
             <h3 class="titulo-registro">Completa el formulario de registro:</h3>
 
             <div class="div-container">
@@ -20,7 +20,7 @@
             </div>
             <div class="div-container">
                 <label for="DNI"></label>
-                <input type="number" name="DNI" id="DNI" placeholder="DNI" class="login-input-class" />
+                <input type="text" name="DNI" id="DNI" placeholder="DNI" class="login-input-class" />
             </div>
             <div class="div-container">
                 <label for="email"></label>
@@ -32,13 +32,7 @@
             </div>
             <div class="div-container">
                 <label for="repetir-password"></label>
-                <input
-                    type="repetir-password"
-                    name="repetir-password"
-                    id="repetir-password"
-                    placeholder="Repetir contraseña"
-                    class="login-input-class"
-                />
+                <input type="password" name="repetir-password" id="repetir-password" placeholder="Repetir contraseña" class="login-input-class" />
             </div>
             <div class="div-container">
                 <button type="submit" class="login-button-class">Enviar</button>

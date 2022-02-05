@@ -1,5 +1,3 @@
-const path = require("path");
-
 const indexController = {
 
     home: function (req, res) {

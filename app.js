@@ -25,6 +25,6 @@ app.listen(3000, () => console.log("es la hora de brillar.."));
 app.use("/gatos", rutasGatos);
 app.use("/perros", rutasPerros);
 app.use("/animales", rutasAnimales);
-app.use("/user", rutasUser);
+app.use("/", rutasUser);
 app.use("/", rutasIndex);
 
