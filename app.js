@@ -12,6 +12,11 @@ app.set("view engine", "ejs");
 //eso quiere decir que cuando escriba una "/" ya voy a estar haciendo referencia a esa carpeta.
 app.use(express.static(path.join(__dirname, './public')));
 
+//configuración para capturar todo lo que venga de un formulario en un objeto literal y que podamos modificarlo
+//a formato json si quisieramos
+app.use(express.urlencoded({ extended: false }));
+app.use(express.json());
+
 //traigo las rutas que se encuentran en la carpeta routes.
 const rutasGatos = require("./routes/gatos.js");
 const rutasPerros = require("./routes/perros.js");
