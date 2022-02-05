@@ -14,4 +14,8 @@ router.put("/edit", function (req, res) {
     res.send("probando PUT");
 })
 
+router.delete("/delete/:idUser", function (req, res) {
+    res.send("probando DELETE");
+})
+
 module.exports = router;

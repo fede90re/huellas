@@ -7,7 +7,7 @@
     <body class="fondo">
         <%- include("partials/header.ejs") %>
 
-        <form action="/gatos?_method=PUT" method="POST" class="login-form-container">
+        <form action="/user/edit?_method=PUT" method="POST" class="login-form-container">
             <h3 class="titulo-registro">Editar tus datos:</h3>
 
             <div class="div-container">
@@ -64,6 +64,9 @@
             </div>
             <div class="div-container">
                 <button type="submit" class="login-button-class">Editar</button>
+                <form method="post" action="/user/delete?_method=delete">
+                    <button type="submit" class="login-button-class">Eliminar</button>
+                </form>
             </div>
         </form>
         <%- include("partials/footer.ejs") %>
