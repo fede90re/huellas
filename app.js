@@ -5,6 +5,8 @@ const app = express();
 //path lo utilizo para poder leer las rutas absolutas.
 const path = require("path");
 
+const methodOverride = require("method-override");
+
 //con esta línea le digo a mi servidor de express que debe usar EJS para las vistas
 app.set("view engine", "ejs");
 
@@ -16,6 +18,9 @@ app.use(express.static(path.join(__dirname, './public')));
 //a formato json si quisieramos
 app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
+
+//configuro method Override
+app.use(methodOverride("_method"));
 
 //traigo las rutas que se encuentran en la carpeta routes.
 const rutasGatos = require("./routes/gatos.js");
