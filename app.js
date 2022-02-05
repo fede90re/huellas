@@ -16,9 +16,8 @@ app.use(express.static(path.join(__dirname, './public')));
 const rutasGatos = require("./routes/gatos.js");
 const rutasPerros = require("./routes/perros.js");
 const rutasAnimales = require("./routes/animales.js");
-const rutasLogin = require("./routes/login.js");
-const rutasRegistro = require("./routes/registro.js");
 const rutasIndex = require("./routes/index.js");
+const rutasUser = require("./routes/user.js");
 
 app.listen(3000, () => console.log("es la hora de brillar.."));
 
@@ -26,7 +25,6 @@ app.listen(3000, () => console.log("es la hora de brillar.."));
 app.use("/gatos", rutasGatos);
 app.use("/perros", rutasPerros);
 app.use("/animales", rutasAnimales);
-app.use("/login", rutasLogin);
-app.use("/registro", rutasRegistro);
+app.use("/user", rutasUser);
 app.use("/", rutasIndex);
 
