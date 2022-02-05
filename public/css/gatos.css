@@ -113,7 +113,7 @@
     .nombre-animal {
         background-color: rgb(33, 37, 41);
         color: rgb(213, 185, 181);
-        font-size: 30;
+        font-size: 20px;
         font-weight: bolder;
         text-align: center;
         display: flex;
@@ -122,6 +122,7 @@
         max-height: 200px;
         margin: 10px;
         margin-left: 2%;
+        padding-top: 8px;
     }
 
     .nombre-animal :hover {
@@ -144,7 +145,7 @@
 
     .contenedor-tarjetas {
         margin-top: 50px;
-        width: initial;
-        text-align: initial;
+        justify-content: center;
+        margin-bottom: 50px;
     }
 }
