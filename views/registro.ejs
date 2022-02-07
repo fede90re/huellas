@@ -6,39 +6,39 @@
     <link rel="stylesheet" href="/css/registro.css" />
     <body class="fondo">
         <%- include("partials/header.ejs") %>
+        <form action="/registro" method="POST" class="contenedor-formulario">
+            <div class="login-form-container">
+                <h3 class="titulo-registro">Completa el formulario de registro:</h3>
 
-        <form action="/registro" method="POST" class="login-form-container">
-            <h3 class="titulo-registro">Completa el formulario de registro:</h3>
-
-            <div class="div-container">
-                <label for="nombre"></label>
-                <input type="text" name="nombre" id="nombre" placeholder="Nombre" class="login-input-class" />
-            </div>
-            <div class="div-container">
-                <label for="apellido"></label>
-                <input type="text" name="apellido" id="apellido" placeholder="Apellido" class="login-input-class" />
-            </div>
-            <div class="div-container">
-                <label for="DNI"></label>
-                <input type="text" name="DNI" id="DNI" placeholder="DNI" class="login-input-class" />
-            </div>
-            <div class="div-container">
-                <label for="email"></label>
-                <input type="email" name="email" id="email" placeholder="Correo electrónico" class="login-input-class" />
-            </div>
-            <div class="div-container">
-                <label for="password"></label>
-                <input type="password" name="password" id="password" placeholder="Contraseña" class="login-input-class" />
-            </div>
-            <div class="div-container">
-                <label for="repetir-password"></label>
-                <input type="password" name="repetir-password" id="repetir-password" placeholder="Repetir contraseña" class="login-input-class" />
-            </div>
-            <div class="div-container">
-                <button type="submit" class="login-button-class">Enviar</button>
+                <div class="div-container">
+                    <label for="nombre"></label>
+                    <input type="text" name="nombre" id="nombre" placeholder="Nombre" class="login-input-class" />
+                </div>
+                <div class="div-container">
+                    <label for="apellido"></label>
+                    <input type="text" name="apellido" id="apellido" placeholder="Apellido" class="login-input-class" />
+                </div>
+                <div class="div-container">
+                    <label for="DNI"></label>
+                    <input type="text" name="DNI" id="DNI" placeholder="DNI" class="login-input-class" />
+                </div>
+                <div class="div-container">
+                    <label for="email"></label>
+                    <input type="email" name="email" id="email" placeholder="Correo electrónico" class="login-input-class" />
+                </div>
+                <div class="div-container">
+                    <label for="password"></label>
+                    <input type="password" name="password" id="password" placeholder="Contraseña" class="login-input-class" />
+                </div>
+                <div class="div-container">
+                    <label for="repetir-password"></label>
+                    <input type="password" name="repetir-password" id="repetir-password" placeholder="Repetir contraseña" class="login-input-class" />
+                </div>
+                <div class="div-container">
+                    <button type="submit" class="login-button-class">Enviar</button>
+                </div>
             </div>
         </form>
-        <%- include("partials/footer.ejs") %>
         <!--link de Bootstrap-->
         <script
             src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
@@ -51,4 +51,5 @@
             crossorigin="anonymous"
         ></script>
     </body>
+    <%- include("partials/footer.ejs") %>
 </html>
