@@ -7,7 +7,7 @@ const usersController = {
     crear: function (req, res) {
         const usuario = {
             nombre: req.body.nombre,
-            apellido: req.body.aperllido,
+            apellido: req.body.apellido,
             dni: req.body.dni,
             email: req.body.email,
             password: req.body.password

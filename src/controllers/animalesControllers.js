@@ -2,9 +2,10 @@ const path = require("path");
 const fs = require("fs");
 
 //para que funcione la base de datos
-const animalesFilePath = path.join(__dirname, '../src/data/animalesDataBase.json');
-const animalesFileText = JSON.parse(fs.readFileSync(animalesFilePath, 'utf-8'));
-const animales = JSON.parse(animalesFileText); //ARRAY de ANIMALES
+const animalesFilePath = path.join(__dirname, '../data/animalesDataBase.json');
+const animales = JSON.parse(fs.readFileSync(animalesFilePath, 'utf-8'));
+console.log(animales)
+
 
 
 const animalesController = {
@@ -12,6 +13,18 @@ const animalesController = {
     todos: function (req, res) {
         res.render("animales", { animales: animales })
     },
+    crear: function (req, res) {
+        res.render("crear")
+    },
+    store: function (req, res) {
+        res.redirect("/animales")
+    },
+    detalle: function (req, res) {
+        res.render("detalle")
+    },
+    editar: function () { },
+    update: function () { },
+    eliminar: function () { },
 
     gatos: function (req, res) {
         let id = req.params.id;
@@ -19,9 +32,6 @@ const animalesController = {
     },
     perros: function (req, res) {
         res.render("perros");
-    },
-    store: function (req, res) {
-        res.render("animales", { animales: animales });
     },
     detalleP: function (req, res) {
         let id = req.params.id;
@@ -34,9 +44,6 @@ const animalesController = {
         //  se pueden compartir más de una variable. 
         res.render("detalleGatos", { "id": id });
     },
-
-    editar: function () { },
-    eliminar: function () { },
 
 
 
