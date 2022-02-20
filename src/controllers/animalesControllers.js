@@ -4,7 +4,7 @@ const fs = require("fs");
 //para que funcione la base de datos
 const animalesFilePath = path.join(__dirname, '../data/animalesDataBase.json');
 const animales = JSON.parse(fs.readFileSync(animalesFilePath, 'utf-8'));
-console.log(animales)
+
 
 
 

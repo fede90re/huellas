@@ -1,210 +1,210 @@
 [
     {
         "id": 1,
-        "imagen": "/public/img/gato1.jpg",
+        "imagen": "gato1.jpg",
         "nombre": "pepito",
         "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur dolore iusto magnam quaerat molestiae et, eaque maxime porro nam in! Sequi itaque mollitia eos voluptatibus vitae optio facilis repellat dolorum?",
         "categoria": "Gato"
     },
     {
         "id": 2,
-        "imagen": "/public/img/perro1.jpg",
+        "imagen": "perro1.jpg",
         "nombre": "Juan",
         "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur dolore iusto magnam quaerat molestiae et, eaque maxime porro nam in! Sequi itaque mollitia eos voluptatibus vitae optio facilis repellat dolorum?",
         "categoria": "Perro"
     },
     {
         "id": 3,
-        "imagen": "/public/img/gatoAd2.jpg",
+        "imagen": "gatoAd2.jpg",
         "nombre": "Ana",
         "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur dolore iusto magnam quaerat molestiae et, eaque maxime porro nam in! Sequi itaque mollitia eos voluptatibus vitae optio facilis repellat dolorum?",
         "categoria": "Gato"
     },
     {
         "id": 4,
-        "imagen": "/public/img/perroad1.jpg",
+        "imagen": "perroad1.jpg",
         "nombre": "Sol",
         "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur dolore iusto magnam quaerat molestiae et, eaque maxime porro nam in! Sequi itaque mollitia eos voluptatibus vitae optio facilis repellat dolorum?",
         "categoria": "Perro"
     },
     {
         "id": 5,
-        "imagen": "/public/img/gatoAd4.jpg",
+        "imagen": "gatoAd4.jpg",
         "nombre": "piqui",
         "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur dolore iusto magnam quaerat molestiae et, eaque maxime porro nam in! Sequi itaque mollitia eos voluptatibus vitae optio facilis repellat dolorum?",
         "categoria": "Gato"
     },
     {
         "id": 6,
-        "imagen": "/public/img/perroAd2.jpg",
+        "imagen": "perroAd2.jpg",
         "nombre": "liku",
         "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur dolore iusto magnam quaerat molestiae et, eaque maxime porro nam in! Sequi itaque mollitia eos voluptatibus vitae optio facilis repellat dolorum?",
         "categoria": "Perro"
     },
     {
         "id": 7,
-        "imagen": "/public/img/gatoAdo4.jpg",
+        "imagen": "gatoAdo4.jpg",
         "nombre": "Sandwich",
         "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur dolore iusto magnam quaerat molestiae et, eaque maxime porro nam in! Sequi itaque mollitia eos voluptatibus vitae optio facilis repellat dolorum?",
         "categoria": "Gato"
     },
     {
         "id": 8,
-        "imagen": "/public/img/perroAd3.jpg",
+        "imagen": "perroAd3.jpg",
         "nombre": "Gordo",
         "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur dolore iusto magnam quaerat molestiae et, eaque maxime porro nam in! Sequi itaque mollitia eos voluptatibus vitae optio facilis repellat dolorum?",
         "categoria": "Perro"
     },
     {
         "id": 9,
-        "imagen": "/public/img/gatoAdop2.jpg",
+        "imagen": "gatoAdop2.jpg",
         "nombre": "Negro",
         "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur dolore iusto magnam quaerat molestiae et, eaque maxime porro nam in! Sequi itaque mollitia eos voluptatibus vitae optio facilis repellat dolorum?",
         "categoria": "Gato"
     },
     {
         "id": 10,
-        "imagen": "/public/img/perroAd4.jpg",
+        "imagen": "perroAd4.jpg",
         "nombre": "Rulo",
         "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur dolore iusto magnam quaerat molestiae et, eaque maxime porro nam in! Sequi itaque mollitia eos voluptatibus vitae optio facilis repellat dolorum?",
         "categoria": "Perro"
     },
     {
         "id": 11,
-        "imagen": "/public/img/gato1.jpg",
+        "imagen": "gato1.jpg",
         "nombre": "pepito",
         "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur dolore iusto magnam quaerat molestiae et, eaque maxime porro nam in! Sequi itaque mollitia eos voluptatibus vitae optio facilis repellat dolorum?",
         "categoria": "Gato"
     },
     {
         "id": 12,
-        "imagen": "/public/img/perro1.jpg",
+        "imagen": "perro1.jpg",
         "nombre": "Juan",
         "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur dolore iusto magnam quaerat molestiae et, eaque maxime porro nam in! Sequi itaque mollitia eos voluptatibus vitae optio facilis repellat dolorum?",
         "categoria": "Perro"
     },
     {
         "id": 13,
-        "imagen": "/public/img/gatoAd2.jpg",
+        "imagen": "gatoAd2.jpg",
         "nombre": "Ana",
         "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur dolore iusto magnam quaerat molestiae et, eaque maxime porro nam in! Sequi itaque mollitia eos voluptatibus vitae optio facilis repellat dolorum?",
         "categoria": "Gato"
     },
     {
         "id": 14,
-        "imagen": "/public/img/perroad1.jpg",
+        "imagen": "perroad1.jpg",
         "nombre": "Sol",
         "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur dolore iusto magnam quaerat molestiae et, eaque maxime porro nam in! Sequi itaque mollitia eos voluptatibus vitae optio facilis repellat dolorum?",
         "categoria": "Perro"
     },
     {
         "id": 15,
-        "imagen": "/public/img/gatoAd4.jpg",
+        "imagen": "gatoAd4.jpg",
         "nombre": "piqui",
         "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur dolore iusto magnam quaerat molestiae et, eaque maxime porro nam in! Sequi itaque mollitia eos voluptatibus vitae optio facilis repellat dolorum?",
         "categoria": "Gato"
     },
     {
         "id": 16,
-        "imagen": "/public/img/perroAd2.jpg",
+        "imagen": "perroAd2.jpg",
         "nombre": "liku",
         "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur dolore iusto magnam quaerat molestiae et, eaque maxime porro nam in! Sequi itaque mollitia eos voluptatibus vitae optio facilis repellat dolorum?",
         "categoria": "Perro"
     },
     {
         "id": 17,
-        "imagen": "/public/img/gatoAdo4.jpg",
+        "imagen": "gatoAdo4.jpg",
         "nombre": "Sandwich",
         "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur dolore iusto magnam quaerat molestiae et, eaque maxime porro nam in! Sequi itaque mollitia eos voluptatibus vitae optio facilis repellat dolorum?",
         "categoria": "Gato"
     },
     {
         "id": 18,
-        "imagen": "/public/img/perroAd3.jpg",
+        "imagen": "perroAd3.jpg",
         "nombre": "Gordo",
         "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur dolore iusto magnam quaerat molestiae et, eaque maxime porro nam in! Sequi itaque mollitia eos voluptatibus vitae optio facilis repellat dolorum?",
         "categoria": "Perro"
     },
     {
         "id": 19,
-        "imagen": "/public/img/gatoAdop2.jpg",
+        "imagen": "gatoAdop2.jpg",
         "nombre": "Negro",
         "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur dolore iusto magnam quaerat molestiae et, eaque maxime porro nam in! Sequi itaque mollitia eos voluptatibus vitae optio facilis repellat dolorum?",
         "categoria": "Gato"
     },
     {
         "id": 20,
-        "imagen": "/public/img/perroAd4.jpg",
+        "imagen": "perroAd4.jpg",
         "nombre": "Rulo",
         "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur dolore iusto magnam quaerat molestiae et, eaque maxime porro nam in! Sequi itaque mollitia eos voluptatibus vitae optio facilis repellat dolorum?",
         "categoria": "Perro"
     },
     {
         "id": 21,
-        "imagen": "/public/img/gato1.jpg",
+        "imagen": "gato1.jpg",
         "nombre": "pepito",
         "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur dolore iusto magnam quaerat molestiae et, eaque maxime porro nam in! Sequi itaque mollitia eos voluptatibus vitae optio facilis repellat dolorum?",
         "categoria": "Gato"
     },
     {
         "id": 22,
-        "imagen": "/public/img/perro1.jpg",
+        "imagen": "perro1.jpg",
         "nombre": "Juan",
         "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur dolore iusto magnam quaerat molestiae et, eaque maxime porro nam in! Sequi itaque mollitia eos voluptatibus vitae optio facilis repellat dolorum?",
         "categoria": "Perro"
     },
     {
         "id": 23,
-        "imagen": "/public/img/gatoAd2.jpg",
+        "imagen": "gatoAd2.jpg",
         "nombre": "Ana",
         "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur dolore iusto magnam quaerat molestiae et, eaque maxime porro nam in! Sequi itaque mollitia eos voluptatibus vitae optio facilis repellat dolorum?",
         "categoria": "Gato"
     },
     {
         "id": 24,
-        "imagen": "/public/img/perroad1.jpg",
+        "imagen": "perroad1.jpg",
         "nombre": "Sol",
         "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur dolore iusto magnam quaerat molestiae et, eaque maxime porro nam in! Sequi itaque mollitia eos voluptatibus vitae optio facilis repellat dolorum?",
         "categoria": "Perro"
     },
     {
         "id": 25,
-        "imagen": "/public/img/gatoAd4.jpg",
+        "imagen": "gatoAd4.jpg",
         "nombre": "piqui",
         "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur dolore iusto magnam quaerat molestiae et, eaque maxime porro nam in! Sequi itaque mollitia eos voluptatibus vitae optio facilis repellat dolorum?",
         "categoria": "Gato"
     },
     {
         "id": 26,
-        "imagen": "/public/img/perroAd2.jpg",
+        "imagen": "perroAd2.jpg",
         "nombre": "liku",
         "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur dolore iusto magnam quaerat molestiae et, eaque maxime porro nam in! Sequi itaque mollitia eos voluptatibus vitae optio facilis repellat dolorum?",
         "categoria": "Perro"
     },
     {
         "id": 27,
-        "imagen": "/public/img/gatoAdo4.jpg",
+        "imagen": "gatoAdo4.jpg",
         "nombre": "Sandwich",
         "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur dolore iusto magnam quaerat molestiae et, eaque maxime porro nam in! Sequi itaque mollitia eos voluptatibus vitae optio facilis repellat dolorum?",
         "categoria": "Gato"
     },
     {
         "id": 28,
-        "imagen": "/public/img/perroAd3.jpg",
+        "imagen": "perroAd3.jpg",
         "nombre": "Gordo",
         "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur dolore iusto magnam quaerat molestiae et, eaque maxime porro nam in! Sequi itaque mollitia eos voluptatibus vitae optio facilis repellat dolorum?",
         "categoria": "Perro"
     },
     {
         "id": 29,
-        "imagen": "/public/img/gatoAdop2.jpg",
+        "imagen": "gatoAdop2.jpg",
         "nombre": "Negro",
         "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur dolore iusto magnam quaerat molestiae et, eaque maxime porro nam in! Sequi itaque mollitia eos voluptatibus vitae optio facilis repellat dolorum?",
         "categoria": "Gato"
     },
     {
         "id": 30,
-        "imagen": "/public/img/perroAd4.jpg",
+        "imagen": "perroAd4.jpg",
         "nombre": "Rulo",
         "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur dolore iusto magnam quaerat molestiae et, eaque maxime porro nam in! Sequi itaque mollitia eos voluptatibus vitae optio facilis repellat dolorum?",
         "categoria": "Perro"
