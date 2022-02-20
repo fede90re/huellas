@@ -1,5 +1,7 @@
 .contenedor {
     width: 100%;
+    text-align: center;
+    background-color: rgb(213, 185, 181);
 }
 
 .contenedor-tarjetas {
@@ -12,7 +14,17 @@
 .img-clases-animales {
     width: 70%;
     border-radius: 30px;
-    margin: 20px 0px 20px 0px;
+    margin: 0px 0px 20px 0px;
     height: 190px;
     border: 1.5px solid rgb(79, 79, 79);
+}
+
+.titulo-nombre-animales {
+    color: rgb(33, 37, 41);
+    text-decoration: underline;
+    text-decoration-color: rgb(213, 185, 181);
+    font-weight: bolder;
+    font-size: 18px;
+    font-style: normal;
+    padding: 20px 0px 0px 0px;
 }

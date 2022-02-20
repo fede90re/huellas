@@ -20,15 +20,14 @@ const animalesController = {
         res.redirect("/animales")
     },
     detalle: function (req, res) {
-        res.render("detalle")
+        res.render("")
     },
     editar: function () { },
     update: function () { },
     eliminar: function () { },
 
     gatos: function (req, res) {
-        let id = req.params.id;
-        res.render("gatos", { id: id });
+        res.render("gatos", { animales: animales });
     },
     perros: function (req, res) {
         res.render("perros");

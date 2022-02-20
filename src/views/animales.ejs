@@ -11,8 +11,9 @@
         <% for (let animal of animales){%>
         <div>
             <section>
-                <a href="/animales/<%= animal.id %> ">
+                
                     <div class="contenedor">
+                        <a class="titulo-nombre-animales">Hola soy <%= animal.nombre %></a>
                         <div class="contenedor-tarjetas">
                             <img class="img-clases-animales" src="/img/<%= animal.imagen %> " />
                         </div>
