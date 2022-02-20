@@ -29,7 +29,7 @@
     },
     {
         "id": 5,
-        "imagen": "gatoAd4.jpg",
+        "imagen": "gato123.jpg",
         "nombre": "piqui",
         "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur dolore iusto magnam quaerat molestiae et, eaque maxime porro nam in! Sequi itaque mollitia eos voluptatibus vitae optio facilis repellat dolorum?",
         "categoria": "Gato"
@@ -99,7 +99,7 @@
     },
     {
         "id": 15,
-        "imagen": "gatoAd4.jpg",
+        "imagen": "gato123.jpg",
         "nombre": "piqui",
         "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur dolore iusto magnam quaerat molestiae et, eaque maxime porro nam in! Sequi itaque mollitia eos voluptatibus vitae optio facilis repellat dolorum?",
         "categoria": "Gato"
@@ -169,7 +169,7 @@
     },
     {
         "id": 25,
-        "imagen": "gatoAd4.jpg",
+        "imagen": "gato123.jpg",
         "nombre": "piqui",
         "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur dolore iusto magnam quaerat molestiae et, eaque maxime porro nam in! Sequi itaque mollitia eos voluptatibus vitae optio facilis repellat dolorum?",
         "categoria": "Gato"
@@ -183,7 +183,7 @@
     },
     {
         "id": 27,
-        "imagen": "gatoAdo4.jpg",
+        "imagen": "gatoAdop2.jpg",
         "nombre": "Sandwich",
         "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur dolore iusto magnam quaerat molestiae et, eaque maxime porro nam in! Sequi itaque mollitia eos voluptatibus vitae optio facilis repellat dolorum?",
         "categoria": "Gato"

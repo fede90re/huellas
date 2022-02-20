@@ -1,16 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
+    <link rel="stylesheet" href="/css/animales.css" />
     <%- include("partials/head.ejs") %>
     <title>animales</title>
 
     <body>
+        <%- include("partials/header.ejs") %>
+
         <h1>Todos los animales!</h1>
-        <%- include("partials/header.ejs") %> <% for (let animal of animales){%>
+        <% for (let animal of animales){%>
         <div>
             <section>
                 <a href="/animales/<%= animal.id %> ">
-                    <div>
-                        <img src="/img/<%= animal.imagen %> " />
+                    <div class="contenedor">
+                        <div class="contenedor-tarjetas">
+                            <img class="img-clases-animales" src="/img/<%= animal.imagen %> " />
+                        </div>
                     </div>
                 </a>
             </section>
