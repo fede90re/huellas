@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+    <%- include("partials/head.ejs") %>
+    <link rel="stylesheet" href="/css/detalleGatos.css" />
+    <title>Detalle del gato</title>
+    <%- include("partials/header.ejs") %>
+    <body class="fondo-detalle-g">
+        <section>
+            <div>
+                <img src="/img/<%= animal.imagen %> " alt="" />
+
+                <% for(let animal of animales ){%>
+                <div></div>
+            </div>
+        </section>
+        <h1>estas por adoptar el gatito <%=animales.id[i]%></h1>
+        <%} %> <%- include("partials/footer.ejs") %>
+    </body>
+</html>

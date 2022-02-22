@@ -20,7 +20,7 @@ const animalesController = {
         res.redirect("/animales")
     },
     detalle: function (req, res) {
-        res.render("")
+        res.render("detalle", { animales: animales })
     },
     editar: function () { },
     update: function () { },

@@ -1,35 +1,36 @@
 .contenedor-gatos {
+    display: flex;
+    flex-direction: column;
+    padding: 15px 15px 0px 15px;
     background-color: rgb(213, 185, 181);
-    padding-top: 20px;
 }
 
 .frase-gato {
     background-color: rgb(33, 37, 41);
     color: rgb(213, 185, 181);
-    width: 90%;
     font-size: 20px;
     text-align: center;
     border-radius: 15px;
-    margin-left: 5%;
-    padding: 5px;
 }
 
 .contenedor2 {
-    justify-content: flex-start;
     padding: 30px;
-    margin-top: -30px;
+}
+
+.contenedor-tarjetas {
+    display: flex;
+    flex-direction: column;
 }
 
 .nombre-animal {
     background-color: rgb(33, 37, 41);
     color: rgb(213, 185, 181);
     text-decoration: none;
-    font-weight: bolder;
-    text-align: center;
     display: flex;
     flex-direction: column;
+    font-weight: bolder;
+    text-align: center;
     height: 195px;
-    margin: 12%;
     margin-bottom: 60px;
     font-size: 17px;
 }
@@ -40,12 +41,12 @@
     border: 1px solid rgb(33, 37, 41);
 }
 
-.contenedor-perros {
+/*.contenedor-perros {
     background-color: rgb(213, 185, 181);
     background-attachment: fixed;
     background-size: cover;
     padding-top: 50px;
-}
+}*/
 @media (min-width: 520px) {
     .imagen-animal {
         height: 230px;
