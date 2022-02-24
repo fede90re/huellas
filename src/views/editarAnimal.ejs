@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="/css/animales.css" />
+    <%- include("partials/head.ejs") %>
+    <title>Editando a <%= animal.nombre %></title>
+
+    <body>
+        <%- include("partials/header.ejs") %>
+
+        <form action="animales/<%= animal.id %>?_method=PUT" method="POST">
+            <section>
+                <div></div>
+            </section>
+        </form>
+        <%- include("partials/footer.ejs") %>
+    </body>
+</html>

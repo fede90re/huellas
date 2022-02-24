@@ -30,7 +30,15 @@ const animalesController = {
 
         res.render("detalle", { animal })
     },
-    editar: function () { },
+    editar: function (req, res) {
+        const id = req.params.id;
+        const animal = animales.find((animals) => {
+            return animals.id == id;
+        })
+        res.render("editar", {
+            animal
+        })
+    },
     update: function () { },
     eliminar: function () { },
 
