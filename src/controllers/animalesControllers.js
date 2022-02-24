@@ -19,8 +19,16 @@ const animalesController = {
     store: function (req, res) {
         res.redirect("/animales")
     },
+
+    // Utilizo el find para encontrar el primer animal que coincida con el id que se busca.
+    // Así solamente necesito pasarle a la vista la página a renderizar y la variable que declaro.
     detalle: function (req, res) {
-        res.render("detalle", { animales: animales })
+        const id = req.params.id;
+        const animal = animales.find((animals) => {
+            return animals.id == id;
+        })
+
+        res.render("detalle", { animal })
     },
     editar: function () { },
     update: function () { },

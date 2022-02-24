@@ -53,6 +53,17 @@
     }
 }
 @media (min-width: 767px) {
+    .seccion-animales {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: space-around;
+        margin: auto;
+    }
+
+    .contenedor {
+        width: 50%;
+    }
 }
 @media (min-width: 1100px) {
 }
