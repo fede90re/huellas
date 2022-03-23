@@ -33,8 +33,7 @@ const rutasUser = require("./routes/user.js");
 app.listen(3000, () => console.log("es la hora de brillar.."));
 
 //todas las rutas que empiecen con ese PREFIJO van a matchear con esa ruta.
-app.use("/gatos", rutasGatos);
-app.use("/perros", rutasPerros);
+
 app.use("/animales", rutasAnimales);
 app.use("/", rutasUser);
 app.use("/", rutasIndex);

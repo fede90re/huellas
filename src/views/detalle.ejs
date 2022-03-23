@@ -1,18 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-    <%- include("partials/head.ejs") %>
+<%- include("partials/head.ejs") %>
     <link rel="stylesheet" href="/css/detalleGatos.css" />
-    <title>Detalle de <%=animal.nombre%></title>
+    <title>Detalle de <%=animal.nombre%>
+    </title>
     <%- include("partials/header.ejs") %>
-    <body class="fondo-detalle-g">
-        <section>
-            <div>
-                <img src="/img/<%= animal.imagen %> " alt="" />
 
-                <div><%= animal.descripcion %></div>
-            </div>
-        </section>
-        <h1>estas por adoptar a <%=animal.nombre%></h1>
-        <%- include("partials/footer.ejs") %>
-    </body>
+        <body class="fondo-detalle-g">
+            <section>
+                <div>
+                    <img src="/img/<%= animal.imagen %> " alt="" />
+
+                    <div>
+                        <%= animal.descripcion %>
+                    </div>
+                </div>
+            </section>
+            <h1>estas por adoptar a <%=animal.nombre%>
+            </h1>
+            <%- include("partials/footer.ejs") %>
+        </body>
+
 </html>
