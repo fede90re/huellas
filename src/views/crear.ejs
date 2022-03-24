@@ -12,26 +12,30 @@
             <%- include("partials/header.ejs") %>
                 <form method="POST" action="/animales/crear">
                     <section class="container">
-                        <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+                        <select class="form-select mb40 mx-auto" aria-label=".form-select example">
                             <option selected>¿Qué animal es?</option>
                             <option value="1">Gato</option>
                             <option value="2">Perro</option>
                         </select>
-                        <div class="mb-3 px50">
-                            <label for="nombre" class="form-label">Nombre del animal</label>
+                        <div class="mb40 px50 mx-auto">
+                            <label for="nombre" class="form-label pr25">Nombre</label>
                             <input type="nombre" class="form-control" id="nombre" aria-describedby="nombre">
                         </div>
-                        <div class="mb-3">
-                            <label for="descripcion" class="form-label">Descripcion</label>
+                        <div class="mb40 px50 mx-auto">
+                            <label for="descripcion" class="form-label pr25">Descripcion</label>
                             <textarea class="form-control" id="descripcion" rows="3"></textarea>
                         </div>
-                        <div class="mb-3">
-                            <label for="imagen" class="form-label">Seleccione imagenes</label>
-                            <input class="form-control" type="file" id="imagen" multiple>
-                            <div id="emailHelp" class="form-text">Las imágenes son importantes para poder conseguirles
-                                un hogar más rápido!</div>
+                        <div class="mb40bis px50 mx-auto">
+                            <label for="imagen" class="form-label pr25">Seleccione imagenes</label>
+                            <input class="form-control-lg" type="file" id="imagen" multiple>
                         </div>
-                        <button type="submit" class="btn btn-primary">Crear</button>
+                        <div class="tjc">
+                            <div id="emailHelp" class="form-text mb100 ttc">Las imágenes son importantes para poder
+                                conseguirles un hogar más rápido!</div>
+                        </div>
+                        <div>
+                            <button type="submit" class="btn btn-primary mb100 mbutton">Crear</button>
+                        </div>
                     </section>
                 </form>
 

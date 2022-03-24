@@ -5,3 +5,36 @@ width: 50%;
 .px75 {
 width: 75%;
 }
+
+.mb40 {
+    margin-bottom: 40px;
+    margin-top: 40px;
+    max-width: 35%;
+}
+
+.mb40bis {
+    margin-top: 40px;
+    max-width: 35%;
+}
+
+.mb100 {
+    margin-bottom: 100px;
+    margin-top: 40px;
+    max-width: 35%;
+}
+
+.mbutton {
+    margin-left: 45%;
+}
+
+.pr25 {
+    padding-right: 25px;
+}
+
+.tjc {
+    justify-content: center;
+}
+
+.ttc {
+    text-align: center;
+}
