@@ -13,24 +13,46 @@
                 <form method="POST" action="/animales/crear">
                     <section class="container">
                         <select class="form-select mb40 mx-auto" aria-label=".form-select example">
+                            <label for="tipo" class="form-label pr25">¿Qué animal es?</label>
                             <option selected>¿Qué animal es?</option>
-                            <option value="1">Gato</option>
-                            <option value="2">Perro</option>
+                            <option value="Gato">Gato</option>
+                            <option value="Perro">Perro</option>
                         </select>
                         <div class="mb40 px50 mx-auto">
+                            <label for="edad" class="form-label pr25">Edad</label>
+                            <br>
+                            <section class="mw100">
+                                <div class="form-check form-check-inline ">
+                                    <input class="form-check-input" type="radio" name="edad" id="opcion1"
+                                        value="Menos de 1 año">
+                                    <label class="form-check-label" for="opcion1">Menos de 1 año</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="edad" id="opcion2"
+                                        value="Entre 1 y 2 años">
+                                    <label class="form-check-label" for="opcion2">Entre 1 y 2 años</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="edad" id="opcion3"
+                                        value="Más de 2 años">
+                                    <label class="form-check-label" for="opcion3">Más de 2 años</label>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="mb40 px50 mx-auto">
                             <label for="nombre" class="form-label pr25">Nombre</label>
-                            <input type="nombre" class="form-control" id="nombre" aria-describedby="nombre">
+                            <input type="nombre" class="form-control" name="nombre" aria-describedby="nombre">
                         </div>
                         <div class="mb40 px50 mx-auto">
                             <label for="descripcion" class="form-label pr25">Descripcion</label>
-                            <textarea class="form-control" id="descripcion" rows="3"></textarea>
+                            <textarea class="form-control" name="descripcion" rows="3"></textarea>
                         </div>
                         <div class="mb40bis px50 mx-auto">
                             <label for="imagen" class="form-label pr25">Seleccione imagenes</label>
-                            <input class="form-control-lg" type="file" id="imagen" multiple>
+                            <input class="form-control-lg" type="file" name="imagen" multiple>
                         </div>
                         <div class="tjc">
-                            <div id="emailHelp" class="form-text mb100 ttc">Las imágenes son importantes para poder
+                            <div id="emailHelp" class="form-text mb50 ttc">Las imágenes son importantes para poder
                                 conseguirles un hogar más rápido!</div>
                         </div>
                         <div>

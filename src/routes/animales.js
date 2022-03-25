@@ -7,7 +7,7 @@ router.get("/", animalesController.todos);
 
 //CREAR UN ANIMAL
 router.get("/crear", animalesController.crear);
-router.post("/crear", animalesController.store); //use STORE porque lo usaba en la clase 21, despues cambiarlo
+router.post("/crear", animalesController.guardar); //use STORE porque lo usaba en la clase 21, despues cambiarlo
 
 
 

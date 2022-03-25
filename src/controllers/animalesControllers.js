@@ -10,19 +10,16 @@ const animales = JSON.parse(fs.readFileSync(animalesFilePath, 'utf-8'));
 
 const animalesController = {
 
+
+    //  al pasarle el segundo parámetro puedo utilizar información en la vista con ejs,
+    //  se pueden compartir más de una variable. 
+
     todos: function (req, res) {
         res.render("animales", { animales: animales })
-    },
-    crear: function (req, res) {
-        res.render("crear")
-    },
-    store: function (req, res) {
-        res.redirect("animales")
     },
 
     // Utilizo el find para encontrar el primer animal que coincida con el id que se busca.
     // Así solamente necesito pasarle a la vista la página a renderizar y la variable que declaro.
-
     editar: function (req, res) {
         const id = req.params.id;
         const animal = animales.find((animals) => {
@@ -32,13 +29,27 @@ const animalesController = {
             animal
         })
     },
+
     update: function () { },
+
     eliminar: function () { },
 
+    crear: function (req, res) {
+        res.render("crear")
+    },
 
+    guardar: function (req, res) {
+        let animalNuevo = {
+            tipo: req.body.tipo,
+            edad: req.body.edad,
+            nombre: req.body.nombre,
+            descripcion: req.body.descripcion,
+            imagenes: req.body.imagen
+        }
 
-    //  al pasarle el segundo parámetro puedo utilizar información en la vista con ejs, 
-    //  se pueden compartir más de una variable. 
+        //guardar la info
+        res.redirect("/animales");
 
+    }
 };
 module.exports = animalesController;

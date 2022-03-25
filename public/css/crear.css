@@ -10,11 +10,13 @@ width: 75%;
     margin-bottom: 40px;
     margin-top: 40px;
     max-width: 35%;
+    text-align: center;
 }
 
 .mb40bis {
     margin-top: 40px;
     max-width: 35%;
+    text-align: center;
 }
 
 .mb100 {
@@ -23,8 +25,19 @@ width: 75%;
     max-width: 35%;
 }
 
+.mb50 {
+    margin-bottom: 50px;
+    margin-top: 40px;
+    max-width: 35%;
+}
+
+.mw100 {
+    max-width: 100%;
+}
+
 .mbutton {
-    margin-left: 45%;
+    margin-left: 50%;
+    
 }
 
 .pr25 {
@@ -33,6 +46,7 @@ width: 75%;
 
 .tjc {
     justify-content: center;
+    display: flex;
 }
 
 .ttc {
