@@ -1,25 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-    <link rel="stylesheet" href="/css/animales.css" />
-    <%- include("partials/head.ejs") %>
+<link rel="stylesheet" href="/css/animales.css" />
+<%- include("partials/head.ejs") %>
     <title>animales</title>
 
     <body>
         <%- include("partials/header.ejs") %>
-        <div>
-            <h1 class="titulo-animales">Todos estos animales se encuentran esperando una familia!</h1>
+            <div class="titulo-animales">
+                <h1>Todos estos animales se encuentran esperando una familia!</h1>
+            </div>
             <div>
                 <section class="seccion-animales">
                     <% for (let animal of animales){%>
-                    <div class="contenedor">
-                        <a class="titulo-nombre-animales">Hola soy <%= animal.nombre %></a>
-                        <div class="contenedor-tarjetas">
-                            <img class="img-clases-animales" src="/img/<%= animal.imagen %> " />
+                        <div class="contenedor">
+                            <a class="titulo-nombre-animales">Hola soy <%= animal.nombre %></a>
+                            <div class="contenedor-tarjetas">
+                                <img class="img-clases-animales" src="/img/<%= animal.imagen %> " />
+                            </div>
                         </div>
-                    </div>
-                    <% } %> <%- include("partials/footer.ejs") %>
+                        <% } %>
+                            <%- include("partials/footer.ejs") %>
                 </section>
             </div>
-        </div>
     </body>
+
 </html>

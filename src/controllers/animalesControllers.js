@@ -35,7 +35,7 @@ const animalesController = {
     eliminar: function () { },
 
     crear: function (req, res) {
-        res.render("crear")
+        res.render("crearAnimal")
     },
 
     guardar: function (req, res) {
