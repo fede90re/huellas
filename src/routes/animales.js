@@ -9,8 +9,6 @@ router.get("/", animalesController.todos);
 router.get("/crear", animalesController.crear);
 router.post("/crear", animalesController.guardar); //use STORE porque lo usaba en la clase 21, despues cambiarlo
 
-
-
 // EDITAR UN ANIMAL
 router.get("/:id/editar", animalesController.editar);
 router.put("/:id", animalesController.update);

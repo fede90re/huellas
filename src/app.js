@@ -5,6 +5,7 @@ const app = express();
 //path lo utilizo para poder leer las rutas absolutas.
 const path = require("path");
 
+//requiero el paquete que sirve para que pueda utilizar el PUT y el DELETE además del GET y POST.
 const methodOverride = require("method-override");
 
 //con esta línea le digo a mi servidor de express que debe usar EJS para las vistas
