@@ -38,4 +38,7 @@ app.listen(3000, () => console.log("es la hora de brillar.."));
 app.use("/animales", rutasAnimales);
 app.use("/", rutasUser);
 app.use("/", rutasIndex);
+app.use((req, res, next) => {
+    res.status(404).render("not-found")
+});
 
