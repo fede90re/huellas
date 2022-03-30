@@ -25,14 +25,19 @@ const animalesController = {
         const animal = animales.find((animals) => {
             return animals.id == id;
         })
-        res.render("editar", {
+        res.render("editarAnimal", {
             animal
         })
+        res.send(animal);
     },
 
-    update: function () { },
+    update: function (req, res) {
+        res.send("FUI POR PUT!")
+    },
 
-    eliminar: function () { },
+    eliminar: function (req, res) {
+        res.send("VIAJA POR DELETE!")
+    },
 
     crear: function (req, res) {
         res.render("crearAnimal")

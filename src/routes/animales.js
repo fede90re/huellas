@@ -10,10 +10,10 @@ router.get("/crear", animalesController.crear);
 router.post("/crear", animalesController.guardar); //use STORE porque lo usaba en la clase 21, despues cambiarlo
 
 // EDITAR UN ANIMAL
-router.get("/:id/editar", animalesController.editar);
-router.put("/:id", animalesController.update);
+router.get("/editar/:id", animalesController.editar);
+router.put("/editar", animalesController.update);
 
 // ELIMINAR UN PRODUCTO
-router.delete("/:id", animalesController.eliminar)
+router.delete("/delete/:id", animalesController.eliminar)
 
 module.exports = router

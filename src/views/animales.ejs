@@ -16,6 +16,9 @@
                             <a class="titulo-nombre-animales">Hola soy <%= animal.nombre %></a>
                             <div class="contenedor-tarjetas">
                                 <img class="img-clases-animales" src="/img/<%= animal.imagen %> " />
+                                <form action="/animales/delete/<%= animal.id %>?_method=DELETE" method="POST">
+                                    <button>Eliminar</button>
+                                </form>
                             </div>
                         </div>
                         <% } %>
