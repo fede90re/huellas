@@ -1,0 +1,273 @@
+[
+    {
+        "id": 1,
+        "nombre": "Carlos Salvador",
+        "apellido": "Bilardo",
+        "email": "elnarigon@hotmail.com" ,
+        "contraseña": 1234,
+        "recontraseña": 1234,
+        "imagen": "gato1.jpg",
+        "categoria": "usuario"
+    },
+    {
+        "id": 2,
+        "nombre": "Osvaldo Juan",
+        "apellido": "Zubeldia Chidichino",
+        "email": "elgranzubeldia@hotmail.com",
+        "contraseña": 1234,
+        "recontraseña": 1234,
+        "categoria": "usuario"
+    },
+    {
+        "id": 3,
+        "nombre": "Juan Ramón",
+        "apellido": "Verón",
+        "email": "labruja@hotmail.com",
+        "contraseña": 1234,
+        "recontraseña": 1234,
+        "categoria": "usuario"
+    },
+    {
+        "id": 4,
+        "nombre": "Leonardo Ruben",
+        "apellido": "Astrada",
+        "email": "leoastrada@hotmail.com",
+        "contraseña": 1234,
+        "recontraseña": 1234,
+        "categoria": "usuario"
+    },
+    {
+        "id": 5,
+        "nombre": "Alejandro Javier",
+        "apellido": "Sabella",
+        "email": "pachorra@gmail.com",
+        "contraseña": 1234,
+        "recontraseña": 1234,
+        "categoria": "usuario"
+    },
+    {
+        "id": 6,
+        "nombre": "Mauro Javier",
+        "apellido":"Dobler",
+        "email": "dobler123@hotmail.com" ,
+        "contraseña": 1234,
+        "recontraseña": 1234,
+        "categoria": "usuario"
+    },
+    {
+        "id": 7,
+        "nombre": "Damian Gonzalo",
+        "apellido": "Albil",
+        "email": "damianalbil@hotmail.com",
+        "contraseña": 1234,
+        "recontraseña": 1234,
+        "categoria": "usuario"
+    },
+    {
+        "id": 8,
+        "nombre": "Marcos Alberto",
+        "apellido": "Rojo",
+        "email": "marquitosrojo@hotmail.com",
+        "contraseña": 1234,
+        "recontraseña": 1234,
+        "categoria": "usuario"
+    },
+    {
+        "id": 9,
+        "nombre": "Juan Augusto",
+        "apellido": "Huerta",
+        "email": "juancitohuerta@hotmail.com",
+        "contraseña": 1234,
+        "recontraseña": 1234,
+        "categoria": "usuario"
+    },
+    {
+        "id": 10,
+        "nombre": "Maximiliano Ezequiel",
+        "apellido": "Nuñez",
+        "email":"maxinuñez@hotmail.com", 
+        "contraseña": 1234,
+        "recontraseña": 1234,
+        "categoria": "usuario"
+    },
+    {
+        "id": 11,
+        "nombre": "Mauricio Nicolás",
+        "apellido": "Carrasco",
+        "email":"carrasconicolas@gmail.com", 
+        "contraseña": 1234,
+        "recontraseña": 1234,
+        "categoria": "usuario"
+    },
+    {
+        "id": 12,
+        "nombre": "Diego Alberto",
+        "apellido": "Galvan",
+        "email": "galvan@gmail.com", 
+        "contraseña": 1234,
+        "recontraseña": 1234,
+        "categoria": "usuario"
+    },
+    {
+        "id": 13,
+        "nombre": "Ramón Alberto",
+        "apellido": "Lentini",
+        "email":"losalvoelpibe@hotmail.com", 
+        "contraseña": 1234,
+        "recontraseña": 1234,
+        "categoria": "usuario"
+    },
+    {
+        "id": 14,
+        "nombre": "Mauro",
+        "apellido": "Boselli",
+        "email":"goleadormauro@hotmail.com", 
+        "contraseña": 1234,
+        "recontraseña": 1234,
+        "categoria": "usuario"
+    },
+    {
+        "id": 15,
+        "nombre": "Gastón Nicolás",
+        "apellido": "Fernandez",
+        "email": "lagata@gmail.com", 
+        "contraseña": 1234,
+        "recontraseña": 1234,
+        "categoria": "usuario"
+    },
+    {
+        "id": 16,
+        "nombre": "José Luis",
+        "apellido": "Calderón",
+        "email":"eselseptimo@hotmail.com", 
+        "contraseña": 1234,
+        "recontraseña": 1234,
+        "categoria": "usuario"
+    },
+    {
+        "id": 17,
+        "nombre": "Juan Manuel",
+        "apellido": "Salgueiro",
+        "email": "juanms@gmail.com", 
+        "contraseña": 1234,
+        "recontraseña": 1234,
+        "categoria": "usuario"
+    },
+    {
+        "id": 18,
+        "nombre": "Cristian Nicolás",
+        "apellido": "Sanchez Prette" ,
+        "email": "enlaultima@hotmail.com", 
+        "contraseña": 1234,
+        "recontraseña": 1234,
+        "categoria": "usuario"
+    },
+    {
+        "id": 19,
+        "nombre": "Leandro Damian",
+        "apellido": "Benitez",
+        "email":"chino@hotmail.com", 
+        "contraseña": 1234,
+        "recontraseña": 1234,
+        "categoria": "usuario"
+    },
+    {
+        "id": 20,
+        "nombre": "Rodrigo",
+        "apellido": "Braña",
+        "email": "chapucorazon@hotmail.com", 
+        "contraseña": 1234,
+        "recontraseña": 1234,
+        "categoria": "usuario"
+    },
+    {
+        "id": 21,
+        "nombre": "Ivan Diego",
+        "apellido": "Moreno y Fabianesi",
+        "email":"morenodiego@gmail.com", 
+        "contraseña": 1234,
+        "recontraseña": 1234,
+        "categoria": "usuario"
+    },
+    {
+        "id": 22,
+        "nombre": "Juan Sebastián",
+        "apellido": "Verón",
+        "email":"jsveron@gmail.com", 
+        "contraseña": 1234,
+        "recontraseña": 1234,
+        "categoria": "usuario"
+    },
+    {
+        "id": 23,
+        "nombre": "Enzo Nicolás",
+        "apellido": "Perez",
+        "email": "enzito@hotmail.com", 
+        "contraseña": 1234,
+        "recontraseña": 1234,
+        "categoria": "usuario"
+    },
+    {
+        "id": 24,
+        "nombre": "Matias Ariel",
+        "apellido": "Sanchez",
+        "email":"matisanchez@hotmail.com", 
+        "contraseña": 1234,
+        "recontraseña": 1234,
+        "categoria": "usuario"
+    },
+    {
+        "id": 25,
+        "nombre": "Marcos Alberto",
+        "apellido": "Angeleri" ,
+        "email": "marquitos@hotmail.com", 
+        "contraseña": 1234,
+        "recontraseña": 1234,
+        "categoria": "usuario"
+    },
+    {
+        "id": 26,
+        "nombre": "Agustín",
+        "apellido": "Alayes",
+        "email":"buenaalayes@gmail.com", 
+        "contraseña": 1234,
+        "recontraseña": 1234,
+        "categoria": "usuario"
+    },
+    {
+        "id": 27,
+        "nombre": "Raul Alejandro",
+        "apellido": "Iberbia",
+        "email": "iberbia@hotmail.com", 
+        "contraseña": 1234,
+        "recontraseña": 1234,
+        "categoria": "usuario"
+    },
+    {
+        "id": 28,
+        "nombre": "Christian Ariel",
+        "apellido": "Cellay",
+        "email":"chriscellay@hotmail.com", 
+        "contraseña": 1234,
+        "recontraseña": 1234,
+        "categoria": "usuario"
+    },
+    {
+        "id": 29,
+        "nombre": "Leandro",
+        "apellido": "Desabato",
+        "email": "ldesabato@hotmail.com", 
+        "contraseña": 1234,
+        "recontraseña": 1234,
+        "categoria": "usuario"
+    },
+    {
+        "id": 30,
+        "nombre": "Mariano Gonzalo",
+        "apellido": "Andujar",
+        "email": "mandujar@gmail.com" ,
+        "contraseña": 1234,
+        "recontraseña": 1234,
+        "categoria": "usuario"
+    }
+]
