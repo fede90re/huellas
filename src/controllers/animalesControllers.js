@@ -6,8 +6,6 @@ const animalesFilePath = path.join(__dirname, '../data/animalesDataBase.json');
 const animales = JSON.parse(fs.readFileSync(animalesFilePath, 'utf-8'));
 
 
-
-
 const animalesController = {
 
 

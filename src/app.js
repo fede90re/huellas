@@ -25,11 +25,11 @@ app.use(express.json());
 app.use(methodOverride("_method"));
 
 //traigo las rutas que se encuentran en la carpeta routes.
-const rutasGatos = require("./routes/gatos.js");
-const rutasPerros = require("./routes/perros.js");
-const rutasAnimales = require("./routes/animales.js");
-const rutasIndex = require("./routes/index.js");
-const rutasUser = require("./routes/user.js");
+const rutasGatos = require("./routes/routesGatos.js");
+const rutasPerros = require("./routes/routesPerros.js");
+const rutasAnimales = require("./routes/routesAnimales.js");
+const rutasIndex = require("./routes/routesIndex.js");
+const rutasUser = require("./routes/routesUser.js");
 
 app.listen(3000, () => console.log("es la hora de brillar.."));
 

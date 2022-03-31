@@ -1,3 +1,11 @@
+const path = require("path");
+const fs = require("fs");
+
+//para que funcione la base de datos
+const usuariosFilePath = path.join(__dirname, '../data/usuariosDataBase.json');
+const usuarios = JSON.parse(fs.readFileSync(usuariosFilePath, 'utf-8'));
+
+
 const usersController = {
 
     registro: function (req, res) {
