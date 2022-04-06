@@ -1,6 +1,7 @@
 const express = require("express");
+const router = express.Router();
+const multer = require("multer");
 const animalesController = require("../controllers/animalesControllers");
-const router = express.Router()
 
 // VER TODOS LOS ANIMALES
 router.get("/", animalesController.todos);

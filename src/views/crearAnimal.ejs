@@ -10,7 +10,7 @@
 
         <body>
             <%- include("partials/header.ejs") %>
-                <form method="POST" action="/animales/crear">
+                <form method="POST" action="/animales/crear" enctype="multipart/form-data">
                     <section class="container">
                         <select class="form-select mb40 mx-auto" aria-label=".form-select example">
                             <label for="tipo" class="form-label pr25">¿Qué animal es?</label>
