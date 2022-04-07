@@ -12,32 +12,40 @@
                 <div class="contenedor-titulo">
                     <h1 class="titulo-animales">Todos estos animales se encuentran esperando una familia!</h1>
                 </div>
-                <div>
-                    <section class="seccion-animales">
-                        <% for (let animal of animales){%>
-                            <div class="contenedor">
-                                <a class="titulo-nombre-animales">Hola soy <%= animal.nombre %></a>
-                                <div class="contenedor-tarjetas">
-                                    <img class="img-clases-animales" src="/img/<%= animal.imagen %> " />
+                <div class="tarjeta">
+                    <% for (let animal of animales){%>
+                        <section class="tarjeta-animal">
+                            <article class="seccion-animales">
+                                <div class="contenedor">
+                                    <a class="titulo-nombre-animales">Hola soy <%= animal.nombre %></a>
+                                    <div class="contenedor-tarjetas">
+                                        <img class="img-clases-animales" src="/img/<%= animal.imagen %> " />
+                                    </div>
                                 </div>
-                            </div>
+                            </article>
                             <div class="contenedor-form">
+                                <form action="/animales/editar/<%= animal.id %>?_method=PUT" method="POST">
+                                    <div class="contenedor-boton">
+                                        <button type="button" class="btn btn-success"> Editar </button>
+                                    </div>
+                                </form>
                                 <form action="/animales/delete/<%= animal.id %>?_method=DELETE" method="POST">
-                                    <div class="contenedor-boton"><button type="button"
-                                            class="btn btn-danger">Eliminar</button></div>
+                                    <div class="contenedor-boton">
+                                        <button type="button" class="btn btn-danger">Eliminar</button>
+                                    </div>
                                 </form>
                             </div>
-                            <% } %>
-                                <%- include("partials/footer.ejs") %>
-                    </section>
+                        </section>
+                        <% } %>
                 </div>
-                <% // Link de bootstrap! %>
-                    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
-                        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
-                        crossorigin="anonymous"></script>
-                    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
-                        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
-                        crossorigin="anonymous"></script>
+                <%- include("partials/footer.ejs") %>
+                    <% // Link de bootstrap! %>
+                        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+                            integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+                            crossorigin="anonymous"></script>
+                        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+                            integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+                            crossorigin="anonymous"></script>
         </body>
 
 </html>
