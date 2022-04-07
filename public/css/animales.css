@@ -90,7 +90,7 @@
     .contenedor-boton{
     display: flex;
     flex-direction: row;
-}
+    }
     
     .contenedor-tarjetas {
         align-items:initial;
@@ -111,16 +111,22 @@
     }
 }
 @media (min-width: 767px) {
+
+    .tarjeta-animal {
+        width: 33.33%;
+    }
+
     .seccion-animales {
-        display: flex;
-        flex-wrap: wrap;
         width: 100%;
         justify-content: space-around;
         margin: auto;
     }
 
     .contenedor {
-        width: 50%;
+        width: 100%;
+    }
+    .contenedor-form{
+        padding: 0px 15px 15px 15px;
     }
 
    
@@ -137,5 +143,28 @@
 
     .titulo-nombre-animales{
         padding: 0;
+    }
+
+    .contenedor-titulo {
+        display: flex;
+        justify-content: center;
+        padding: 40px 0px 50px 0px;
+    }
+
+    .titulo-animales{
+        font-size: 38px;
+    }
+
+    .tarjeta-animal{
+        width: 25%;
+    }
+
+    .contenedor-form{
+        padding: 0px 15% 15px 15%;
+    }
+
+    .img-clases-animales {
+        width: 70%;
+        margin-left: 0%;
     }
 }

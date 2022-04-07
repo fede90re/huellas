@@ -156,6 +156,7 @@ section div {
         display: flex;
         list-style: none;
         width: 100%;
+        margin-bottom: 0;
     }
 
     .li-header-info {
