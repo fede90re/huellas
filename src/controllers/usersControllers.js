@@ -10,6 +10,7 @@ const usersController = {
 
     registro: function (req, res) {
         res.render("registro");
+        console.log(req.file);
     },
 
     crear: function (req, res) {

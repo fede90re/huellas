@@ -13,11 +13,11 @@
             <%- include("partials/header.ejs") %>
                 <form action="animales/<%= animal.id %>?_method=PUT" method="POST">
                     <section class="container">
-                        <select class="form-select mb40 mx-auto" aria-label=".form-select example">
+                        <select name="tipo" class="form-select mb40 mx-auto" aria-label=".form-select example">
                             <label for="tipo" class="form-label pr25">¿Qué animal es?</label>
                             <option selected>¿Qué animal es?</option>
-                            <option value="Gato">Gato</option>
-                            <option value="Perro">Perro</option>
+                            <option value="Gato" <%=animal.tipo=="Gato" ? "selected" : "" %>>Gato</option>
+                            <option value="Perro" <%=animal.tipo=="Perro" ? "selected" : "" %>>Perro</option>
                         </select>
                         <div class="mb40 px50 mx-auto">
                             <label for="edad" class="form-label pr25">Edad</label>
@@ -47,7 +47,8 @@
                         </div>
                         <div class="mb40 px50 mx-auto">
                             <label for="descripcion" class="form-label pr25">Descripcion</label>
-                            <textarea class="form-control" name="descripcion" rows="3"></textarea>
+                            <textarea class="form-control" name="descripcion"
+                                rows="3"><%= animal.descripcion %></textarea>
                         </div>
                         <div class="mb40bis px50 mx-auto">
                             <label for="imagen" class="form-label pr25">Seleccione imagenes</label>

@@ -9,7 +9,7 @@ const storage = multer.diskStorage({
         cb(null, path.join(__dirname, "../../public/img/imgAnimales"))
     },
     filename: (req, file, cb) => {
-        const nuevaImagenAnimal = "animal" + Date.now() + path.extname(file.originalname);
+        const nuevaImagenAnimal = "animal-" + Date.now() + path.extname(file.originalname);
         cb(null, nuevaImagenAnimal);
     }
 });
@@ -20,7 +20,7 @@ router.get("/", animalesController.todos);
 
 //CREAR UN ANIMAL
 router.get("/crear", animalesController.crear);
-router.post("/crear", upload.single("imagen"), animalesController.guardar); //use STORE porque lo usaba en la clase 21, despues cambiarlo
+router.post("/crear", upload.single("imagen"), animalesController.guardar);
 
 // EDITAR UN ANIMAL
 router.get("/editar/:id", animalesController.editar);

@@ -208,5 +208,23 @@
         "nombre": "Rulo",
         "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur dolore iusto magnam quaerat molestiae et, eaque maxime porro nam in! Sequi itaque mollitia eos voluptatibus vitae optio facilis repellat dolorum?",
         "categoria": "Perro"
+    },
+    {
+        "id": 1649547018834,
+        "edad": "Menos de 1 año",
+        "nombre": "Litch",
+        "descripcion": "Un gatito juguetón"
+    },
+    {
+        "id": 1649548096288,
+        "edad": "Entre 1 y 2 años",
+        "nombre": "Pipino",
+        "descripcion": "Un perro genial"
+    },
+    {
+        "id": 1649549053725,
+        "edad": "Más de 2 años",
+        "nombre": "Apaltas",
+        "descripcion": "lorem"
     }
 ]

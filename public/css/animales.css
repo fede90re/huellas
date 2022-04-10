@@ -61,6 +61,7 @@
     .tarjeta {
         display: flex;
         flex-wrap: wrap;
+        background-color: rgb(213, 185, 181);
     }
 
     .tarjeta-animal {
