@@ -6,7 +6,7 @@ const animalesController = require("../controllers/animalesControllers");
 
 const storage = multer.diskStorage({
     destination: (req, file, cb) => {
-        cb(null, path.join(__dirname, "../../public/img/imgAnimales"))
+        cb(null, path.join(__dirname, "../../public/img"))
     },
     filename: (req, file, cb) => {
         const nuevaImagenAnimal = "animal-" + Date.now() + path.extname(file.originalname);
@@ -21,6 +21,9 @@ router.get("/", animalesController.todos);
 //CREAR UN ANIMAL
 router.get("/crear", animalesController.crear);
 router.post("/crear", upload.single("imagen"), animalesController.guardar);
+
+// DETALLE DE UN ANIMAL
+router.get("/:id", animalesController.detalle);
 
 // EDITAR UN ANIMAL
 router.get("/editar/:id", animalesController.editar);

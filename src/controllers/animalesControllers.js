@@ -1,15 +1,6 @@
-const path = require("path");
-const fs = require("fs");
+const animalesService = require("../services/animales");
 
-//para que funcione la base de datos
-const animalesFilePath = path.join(__dirname, '../data/animalesDataBase.json');
-const animales = JSON.parse(fs.readFileSync(animalesFilePath, 'utf-8'));
 
-//modifico la base de datos y la sobreescribo con el nuevo animal
-function guardarAnimal() {
-    const texto = JSON.stringify(animales, null, 4);
-    fs.writeFileSync(animalesFilePath, texto, "utf-8");
-}
 
 const animalesController = {
 
@@ -17,7 +8,11 @@ const animalesController = {
     //  se pueden compartir más de una variable. 
 
     todos: function (req, res) {
-        res.render("animales", { animales: animales })
+        res.render("animales", { animales: animalesService.animales })
+    },
+
+    crear: function (req, res) {
+        res.render("crearAnimal")
     },
 
     guardar: function (req, res) {
@@ -27,12 +22,20 @@ const animalesController = {
             // y aplicarlas al objeto, y usar los valores del body en ese objeto
             ...req.body
         };
-        animales.push(animalNuevo);
-        guardarAnimal();
+        animalesService.animales.push(animalNuevo);
+        animalesService.guardarAnimal();
 
-        //guardar la info
         res.redirect("/animales");
     },
+
+    detalle: function (req, res) {
+        const id = req.params.id;
+
+        const animal = animalesService.findOne(id);
+
+        res.render("detalle", { animal });
+    },
+
 
     // Utilizo el find para encontrar el primer animal que coincida con el id que se busca.
     // Así solamente necesito pasarle a la vista la página a renderizar y la variable que declaro.
@@ -40,7 +43,7 @@ const animalesController = {
         const id = req.params.id;
         const animal = animales.find((animals) => {
             return animals.id == id;
-        })
+        });
         res.render("editarAnimal", {
             animal
         })
@@ -64,7 +67,7 @@ const animalesController = {
         //piso el elemento del array con ese animal que modifique 
         animales[indice] = actualizarAnimal;
 
-        guardarAnimal();
+        animalesService.guardarAnimal();
 
         res.redirect("/animales/" + id)
     },
@@ -79,12 +82,11 @@ const animalesController = {
 
         //el SPLICE me borra un animal del array en el INDICE que le indico arriba
         animales.splice(indice, 1);
-        guardarAnimal();
-    },
+        animalesService.guardarAnimal();
 
-    crear: function (req, res) {
-        res.render("crearAnimal")
+        res.redirect("/animales");
     }
+
 
 };
 module.exports = animalesController;
