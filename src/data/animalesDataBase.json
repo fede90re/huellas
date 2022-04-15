@@ -7,11 +7,7 @@
         "categoria": "Gato"
     },
     {
-        "id": 2,
-        "imagen": "perro1.jpg",
-        "nombre": "Juan",
-        "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur dolore iusto magnam quaerat molestiae et, eaque maxime porro nam in! Sequi itaque mollitia eos voluptatibus vitae optio facilis repellat dolorum?",
-        "categoria": "Perro"
+        "id": 2
     },
     {
         "id": 3,
@@ -21,11 +17,7 @@
         "categoria": "Gato"
     },
     {
-        "id": 4,
-        "imagen": "perroad1.jpg",
-        "nombre": "Sol",
-        "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur dolore iusto magnam quaerat molestiae et, eaque maxime porro nam in! Sequi itaque mollitia eos voluptatibus vitae optio facilis repellat dolorum?",
-        "categoria": "Perro"
+        "id": 4
     },
     {
         "id": 5,
@@ -168,25 +160,13 @@
         "categoria": "Perro"
     },
     {
-        "id": 25,
-        "imagen": "gato123.jpg",
-        "nombre": "piqui",
-        "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur dolore iusto magnam quaerat molestiae et, eaque maxime porro nam in! Sequi itaque mollitia eos voluptatibus vitae optio facilis repellat dolorum?",
-        "categoria": "Gato"
+        "id": 25
     },
     {
-        "id": 26,
-        "imagen": "perroAd2.jpg",
-        "nombre": "liku",
-        "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur dolore iusto magnam quaerat molestiae et, eaque maxime porro nam in! Sequi itaque mollitia eos voluptatibus vitae optio facilis repellat dolorum?",
-        "categoria": "Perro"
+        "id": 26
     },
     {
-        "id": 27,
-        "imagen": "gatoAdop2.jpg",
-        "nombre": "Sandwich",
-        "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur dolore iusto magnam quaerat molestiae et, eaque maxime porro nam in! Sequi itaque mollitia eos voluptatibus vitae optio facilis repellat dolorum?",
-        "categoria": "Gato"
+        "id": 27
     },
     {
         "id": 28,
@@ -196,11 +176,7 @@
         "categoria": "Perro"
     },
     {
-        "id": 29,
-        "imagen": "gatoAdop2.jpg",
-        "nombre": "Negro",
-        "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur dolore iusto magnam quaerat molestiae et, eaque maxime porro nam in! Sequi itaque mollitia eos voluptatibus vitae optio facilis repellat dolorum?",
-        "categoria": "Gato"
+        "id": 29
     },
     {
         "id": 30,
@@ -220,11 +196,5 @@
         "edad": "Entre 1 y 2 años",
         "nombre": "Pipino",
         "descripcion": "Un perro genial"
-    },
-    {
-        "id": 1649549053725,
-        "edad": "Más de 2 años",
-        "nombre": "Apaltas",
-        "descripcion": "lorem"
     }
 ]

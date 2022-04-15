@@ -11,7 +11,7 @@
 
         <body>
             <%- include("partials/header.ejs") %>
-                <form action="animales/<%= animal.id %>?_method=PUT" method="POST">
+                <form action="animales/<%= animal.id %>?_method=PUT" method="POST" enctype="multipart/form-data">
                     <section class="container">
                         <select name="tipo" class="form-select mb40 mx-auto" aria-label=".form-select example">
                             <label for="tipo" class="form-label pr25">¿Qué animal es?</label>

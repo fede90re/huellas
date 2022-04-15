@@ -27,7 +27,7 @@ router.get("/:id", animalesController.detalle);
 
 // EDITAR UN ANIMAL
 router.get("/editar/:id", animalesController.editar);
-router.put("/editar", animalesController.update);
+router.put("/editar/:id", animalesController.update);
 
 // ELIMINAR UN PRODUCTO
 router.delete("/delete/:id", animalesController.eliminar)
