@@ -1,0 +1,25 @@
+.contenedor-body {
+    background-color: rgb(213, 185, 181);
+}
+
+.titulo-nombre{
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+}
+
+.detalle-descripcion{
+    text-align: justify;
+    font-size: 15px;
+    padding: 7%;
+}
+
+.desplegable {
+    background-color: rgb(213, 185, 181);
+    border: black solid 1px;
+}
+
+.detalle-desplegable{
+    background-color: rgb(33, 37, 41);
+    color: rgb(213, 185, 181);
+}

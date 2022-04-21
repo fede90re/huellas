@@ -23,7 +23,9 @@ const animalesController = {
     detalle: function (req, res) {
         const id = req.params.id;
         const animal = animalesService.EncontrarUno(id);
-        res.render("detalle", { animal });
+        res.render("detalle", {
+            animal,
+        });
     },
 
     editar: function (req, res) {
@@ -31,7 +33,7 @@ const animalesController = {
         const animal = animalesService.EncontrarUno(id);
         res.render("editarAnimal", {
             animal,
-        })
+        });
     },
 
     update: function (req, res) {
