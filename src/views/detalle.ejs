@@ -12,7 +12,8 @@
         <body>
             <section class="contenedor-body">
 
-                <h1 class="titulo-nombre">estas por adoptar a <%=animal.nombre%>
+                <h1 class="titulo-nombre">
+                    <%=animal.nombre%>
                 </h1>
                 <div class="contenedor-tarjetas">
                     <img class="img-clases-animales img-fluid" src="/img/<%= animal.imagen %> " />
@@ -23,8 +24,8 @@
             </section>
 
 
-            <div class="accordion accordion-flush" id="accordionFlushExample">
-                <div class="accordion-item">
+            <div class="accordion accordion-flush sinbootstrap" id="accordionFlushExample">
+                <div class="accordion-item borde-boton boton-arriba">
                     <h2 class="accordion-header" id="flush-headingOne">
                         <button class="accordion-button collapsed desplegable" type="button" data-bs-toggle="collapse"
                             data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
@@ -34,12 +35,12 @@
                     <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
                         data-bs-parent="#accordionFlushExample">
                         <div class="accordion-body detalle-desplegable">Para poder adoptar deberás estar registrado en
-                            nuestra página. Si
-                            todavía no lo hiciste podés hacer click <a href="/registro">acá</a>.</div>
+                            nuestra página. <a href="/registro">Si todavía no lo hiciste podés hacer click acá.</a>
+                        </div>
                     </div>
                 </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="flush-headingTwo">
+                <div class="accordion-item borde-boton boton-abajo">
+                    <h2 class="accordion-header boton-desplegable" id="flush-headingTwo">
                         <button class="accordion-button collapsed desplegable" type="button" data-bs-toggle="collapse"
                             data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
                             Último paso para dejar tu huella!
@@ -50,7 +51,7 @@
                         <div class="accordion-body detalle-desplegable">Si ya estás loggeado deberás completar con un
                             último paso para poder adoptar tu mascota.
                             Deberás completar el formulario de adopción y enviarlo.
-                            Completalo haciendo click <a href="formulario-adopcion">acá</a>.
+                            <a href="formulario-adopcion">Completalo haciendo click acá.</a>
                         </div>
                     </div>
                 </div>

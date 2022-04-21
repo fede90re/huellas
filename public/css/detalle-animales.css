@@ -1,5 +1,6 @@
 .contenedor-body {
     background-color: rgb(213, 185, 181);
+    padding-bottom: 230px;
 }
 
 .titulo-nombre{
@@ -17,9 +18,98 @@
 .desplegable {
     background-color: rgb(213, 185, 181);
     border: black solid 1px;
+    font-size: 24px;
 }
 
 .detalle-desplegable{
     background-color: rgb(33, 37, 41);
     color: rgb(213, 185, 181);
+}
+
+.boton-desplegable {
+    background-color: rgb(213, 185, 181);
+    padding-bottom: 6%;
+}
+
+.borde-boton{
+    padding: 10px;
+    background-color: rgb(213, 185, 181);
+}
+
+@media (min-width: 520px) {
+    
+.img-clases-animales {
+    width: 65%;
+    border-radius: 30px;
+    margin: 0px 0px 0px 0px;
+    height: 250px;
+    border: 1.5px solid rgb(79, 79, 79);
+}
+
+.contenedor-tarjetas {
+    background-color: rgb(213, 185, 181);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.detalle-descripcion{
+    text-align: justify;
+    font-size: 22px;
+    padding: 10%;
+}
+
+.contenedor-body {
+    padding-bottom: 190px;
+}
+}
+
+@media (min-width: 767px) {
+    .img-clases-animales {
+    height: 350px;
+}
+    .titulo-nombre{
+        font-size: 50px;
+        padding: 20px;
+    }
+
+    .contenedor-body {
+    padding-bottom: 50px;
+}
+}
+
+@media (min-width: 1100px) {
+    .img-clases-animales {
+    height: 430px;
+}
+    .detalle-descripcion{
+    font-size: 33px;
+    padding: 8%;
+}
+
+    .sinbootstrap{
+      display: block;
+      background-color: rgb(213, 185, 181);
+      padding-left: 44%;  
+}
+
+    .boton-arriba{
+      border-bottom: 0;
+}
+
+    .boton-abajo{
+      margin-left: -18% !important;
+}
+
+    .detalle-desplegable {
+      width: 500px;
+}
+  
+}
+
+@media (min-width: 1500px) {
+      .sinbootstrap{
+      padding-left: 50%;  
+}
 }
