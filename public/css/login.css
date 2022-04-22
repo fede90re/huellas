@@ -4,14 +4,21 @@
     background-size: cover;
 }
 
-.login-form-container {
+.contenedor-formulario {
     display: flex;
-    width: 33%;
-    margin: 10% 35%;
+    justify-content: center;
+    margin-top: 50%;
+    margin-bottom: 55%;
+}
+
+.login-form-container {
+    border: 2px solid #9d8197;
+    display: flex;
+    width: 85%;
     flex-direction: column;
     align-items: center;
     background-color: #ebebeb;
-    border-radius: 16%;
+    border-radius: 10%;
 }
 
 .login-input-class {
@@ -37,4 +44,146 @@
 
 .div-container {
     padding: 6%;
+}
+
+@media (min-width: 550px) {
+
+    .login-form-container{
+        width: 75%;
+        height: 400px;
+    }
+
+    .contenedor-formulario{
+        margin-top: 30%;
+        margin-bottom: 30%;
+    }
+    
+    .titulo-registro{
+        font-size: 22px;
+    }
+
+    .div-container{
+        padding: 18px 8px 4px 8px;
+    }
+
+    .boton-final{
+        padding-top: 20%;
+    }
+
+}
+
+@media (min-width: 715px) {
+
+    .contenedor-formulario{
+        margin-top: 22%;
+        margin-bottom: 22%;
+    }
+
+      .login-form-container{
+        width: 65%;
+        height: 450px;
+    }
+
+    .div-container{
+        padding: 40px 8px 4px 8px;
+        width: 85%;
+    }
+
+    .boton-final{
+        padding-left: 21%;
+    }
+
+}
+@media (min-width: 1000px) {
+    .contenedor-formulario{
+        margin-top: 27%;
+        margin-bottom: 27%;
+    }
+
+    .fondo {
+        background-image: url("../img/fondo-rosa.jpg");
+        background-attachment: fixed;
+        background-size: cover;
+    }
+
+    .login-form-container {
+        width: 56%;
+        height: 78%;
+        border-radius: 10%;
+    }
+
+    .login-input-class {
+        width: 100%;
+        padding: 4%;
+        border-radius: 8px;
+        border: rgb(213, 185, 181) 2px solid;
+        text-align: center;
+        font-weight: bolder;
+        font-style: italic;
+    }
+
+    .boton-final{
+        padding-top: 15% !important;
+        padding-left: 24% !important;
+        padding-bottom: 5% !important;
+    }
+
+    .login-button-class {
+        width: 200px;
+        padding: 4%;
+        border-radius: 8px;
+        border: rgb(213, 185, 181) 2px solid;
+        margin-top: 25px;
+        background-color: rgb(251, 229, 218);
+        text-align: center;
+        font-weight: bolder;
+    }
+
+    .div-container {
+        padding: 4% 3% 2% 3%;
+        font-size: 22px;
+    }
+
+    .titulo-registro {
+        font-size: 28px;
+        font-weight: bolder;
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+
+    .imagen-perfil{
+        font-size: 25px;
+    }
+
+    .seleccion-archivo{
+        width: 45%;
+    }
+}
+
+@media (min-width: 1400px) {
+
+    .contenedor-formulario{
+        margin-top: 9%;
+        margin-bottom: 9%;
+    }
+
+    .login-input-class{
+        width: 80%;
+    }
+    .div-container {
+        padding: 4% 10% 6% 10%;
+        justify-content: center;
+    }
+    .titulo-registro{
+        font-size: 36px;
+    }
+
+    .boton-final{
+        padding-left: 8% !important;
+    }
+
+    .login-form-container{
+        width: 40%;
+        height: 82%;
+    }
 }
