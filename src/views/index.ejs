@@ -1,31 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-    <title>Huellitas</title>
-    <%- include("partials/head.ejs") %>
+<title>Huellitas</title>
+<%- include("partials/head.ejs") %>
+
     <body>
         <%- include("partials/header.ejs") %>
-        <main class="contenedor-main">
-            <section class="contenedor1">
-                <article class="contenedor-tarjeta">
-                    <h3 class="titulo-imagen">Adoptar un perro</h3>
-                    <img class="class-img" src="/img/760-510.jpg" />
-                </article>
-                <article class="contenedor-tarjeta">
-                    <h3 class="titulo-imagen">Adoptar un gato</h3>
-                    <img class="class-img" src="/img/gato1.jpg" />
-                </article>
-            </section>
-            <section class="contenedor1">
-                <article class="contenedor-tarjeta">
-                    <h3 class="titulo-imagen">Donar dinero</h3>
-                    <img class="class-img" src="/img/veterinario.jpg" />
-                </article>
-                <article class="contenedor-tarjeta">
-                    <h3 class="titulo-imagen">Ofrecer transito</h3>
-                    <img class="class-img" src="/img/perros-gatos.jpg" />
-                </article>
-            </section>
-        </main>
-        <%- include("partials/footer.ejs") %>
+            <main class="contenedor-main">
+                <section class="contenedor1">
+                    <article class="contenedor-tarjeta">
+                        <h3 class="titulo-imagen">Adoptar un perro</h3>
+                        <a href="/animales"><img class="class-img" src="/img/760-510.jpg" /></a>
+                    </article>
+                    <article class="contenedor-tarjeta">
+                        <h3 class="titulo-imagen">Adoptar un gato</h3>
+                        <a href="/animales"><img class="class-img" src="/img/gato1.jpg" /></a>
+                    </article>
+                </section>
+                <section class="contenedor1">
+                    <article class="contenedor-tarjeta">
+                        <h3 class="titulo-imagen">Donar dinero</h3>
+                        <a href="/"><img class="class-img" src="/img/veterinario.jpg" /></a>
+                    </article>
+                    <article class="contenedor-tarjeta">
+                        <h3 class="titulo-imagen">Ofrecer transito</h3>
+                        <a href="/"><img class="class-img" src="/img/perros-gatos.jpg" /></a>
+                    </article>
+                </section>
+            </main>
+            <%- include("partials/footer.ejs") %>
     </body>
+
 </html>
