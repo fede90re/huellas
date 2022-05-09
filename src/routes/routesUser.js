@@ -29,16 +29,15 @@ const upload = multer({ multerDiskStorage });
 
 
 // CREAR UN USUARIO
-router.get("/registro", usersController.crear);
+router.get("/registro", usersControllers.crear);
 router.post("/registro", upload.single("imagenUsuario"), validandoFormularios, usersController.guardar);
 
 // ENTRAR AL LOGIN
-router.get("/login", usersController.login);
+router.get("/login", usersControllers.login);
 
 // EDITAR UN USUARIO
-router.get("/edit/:idUser", usersController.editar);
-router.put("/edit", function (req, res) {
-    res.send("probando PUT");
+router.get("/edit/:idUser", usersControllers.editar);
+router.put("/edit", usersControllers.update);
 })
 
 
