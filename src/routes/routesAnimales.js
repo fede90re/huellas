@@ -2,7 +2,13 @@ const express = require("express");
 const router = express.Router();
 const multer = require("multer");
 const path = require("path");
+const { body } = require("express-validator");
 const animalesController = require("../controllers/animalesControllers");
+
+const validandoFormularios = [
+    body("nombre").notEmpty().withMessage("Debes agregarle un nombre al animal"),
+    body("descripcion").notEmpty().withMessage("Debes agregar la descripcion del animal")
+]
 
 const storage = multer.diskStorage({
     destination: (req, file, cb) => {
@@ -20,7 +26,7 @@ router.get("/", animalesController.todos);
 
 //CREAR UN ANIMAL
 router.get("/crear", animalesController.crear);
-router.post("/crear", upload.single("imagen"), animalesController.guardar);
+router.post("/crear", upload.single("imagen"), validandoFormularios, animalesController.guardar);
 
 // DETALLE DE UN ANIMAL
 router.get("/:id", animalesController.detalle);
