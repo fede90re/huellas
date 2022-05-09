@@ -6,8 +6,13 @@ const { body } = require("express-validator");
 const animalesController = require("../controllers/animalesControllers");
 
 const validandoFormularios = [
-    body("nombre").notEmpty().withMessage("Debes agregarle un nombre al animal"),
-    body("descripcion").notEmpty().withMessage("Debes agregar la descripcion del animal")
+    body("nombre").notEmpty().withMessage("Debes completar el campo de nombre"),
+    body("descripcion").notEmpty().withMessage("Debes agregar la descripcion del animal"),
+    body("apellido").notEmpty().withMessage("Debes completar el campo apellido"),
+    body("dni").notEmpty().withMessage("Debes completar con tu número de documento"),
+    body("email").isEmail().withMessage("Debes completar con un email válido"),
+    body("password").notEmpty().withMessage("Debes completar con una contraseña"),
+    body("repetir-password").notEmpty().withMessage("Debes repetir la contraseña")
 ]
 
 const storage = multer.diskStorage({
