@@ -5,14 +5,9 @@ const path = require("path");
 const { body } = require("express-validator");
 const animalesController = require("../controllers/animalesControllers");
 
-const validandoFormularios = [
+const validandoFormulariosAnimales = [
     body("nombre").notEmpty().withMessage("Debes completar el campo de nombre"),
-    body("descripcion").notEmpty().withMessage("Debes agregar la descripcion del animal"),
-    body("apellido").notEmpty().withMessage("Debes completar el campo apellido"),
-    body("dni").notEmpty().withMessage("Debes completar con tu número de documento"),
-    body("email").isEmail().withMessage("Debes completar con un email válido"),
-    body("password").notEmpty().withMessage("Debes completar con una contraseña"),
-    body("repetir-password").notEmpty().withMessage("Debes repetir la contraseña")
+    body("descripcion").notEmpty().withMessage("Debes agregar la descripcion del animal")
 ]
 
 const storage = multer.diskStorage({
@@ -31,7 +26,7 @@ router.get("/", animalesController.todos);
 
 //CREAR UN ANIMAL
 router.get("/crear", animalesController.crear);
-router.post("/crear", upload.single("imagen"), validandoFormularios, animalesController.guardar);
+router.post("/crear", upload.single("imagen"), validandoFormulariosAnimales, animalesController.guardar);
 
 // DETALLE DE UN ANIMAL
 router.get("/:id", animalesController.detalle);

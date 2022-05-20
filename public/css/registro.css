@@ -1,3 +1,11 @@
+.errores{
+    color:#100b0c;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+    padding: 5px;
+}
+
 .contenedor-formulario {
     display: flex;
     justify-content: center;

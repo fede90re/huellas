@@ -1,15 +1,21 @@
+const { validationResult } = require("express-validator");
 const usersService = require("../services/users");
 
 
-const usersController = {
+const usersControllers = {
 
     crear: function (req, res) {
         res.render("registro");
     },
 
     guardar: function (req, res) {
-        usersService.crearUno(req.body)
-        res.redirect("/")
+        let errores = validationResult(req);
+        if (errores.isEmpty()) {
+            usersService.crearUno(req.body)
+            res.redirect("/")
+        } else {
+            res.render("registro", { errores: errores.array() });
+        }
     },
 
     login: function (req, res) {
@@ -37,4 +43,4 @@ const usersController = {
     },
 
 }
-module.exports = usersController
+module.exports = usersControllers

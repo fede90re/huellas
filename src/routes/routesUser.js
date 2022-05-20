@@ -3,13 +3,12 @@ const router = express.Router();
 const multer = require("multer");
 const path = require("path");
 const { body } = require("express-validator");
-const usersController = require("../controllers/usersControllers");
+const usersControllers = require("../controllers/usersControllers");
 
-const validandoFormularios = [
+const validandoFormulariosUsuarios = [
     body("nombre").notEmpty().withMessage("Debes completar el campo de nombre"),
-    body("descripcion").notEmpty().withMessage("Debes agregar la descripcion del animal"),
     body("apellido").notEmpty().withMessage("Debes completar el campo apellido"),
-    body("dni").notEmpty().withMessage("Debes completar con tu número de documento"),
+    body("DNI").notEmpty().withMessage("Debes completar con tu número de documento"),
     body("email").isEmail().withMessage("Debes completar con un email válido"),
     body("password").notEmpty().withMessage("Debes completar con una contraseña"),
     body("repetir-password").notEmpty().withMessage("Debes repetir la contraseña")
@@ -30,15 +29,14 @@ const upload = multer({ multerDiskStorage });
 
 // CREAR UN USUARIO
 router.get("/registro", usersControllers.crear);
-router.post("/registro", upload.single("imagenUsuario"), validandoFormularios, usersController.guardar);
+router.post("/registro", upload.single("imagenUsuario"), validandoFormulariosUsuarios, usersControllers.guardar);
 
 // ENTRAR AL LOGIN
 router.get("/login", usersControllers.login);
 
 // EDITAR UN USUARIO
 router.get("/edit/:idUser", usersControllers.editar);
-router.put("/edit", usersControllers.update);
-})
+router.put("/edit/:idUser", usersControllers.update);
 
 
 // ELIMINAR UN USUARIO

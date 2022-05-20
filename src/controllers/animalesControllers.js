@@ -1,3 +1,4 @@
+const { validationResult } = require("express-validator");
 const animalesService = require("../services/animales");
 
 
@@ -16,8 +17,14 @@ const animalesController = {
     },
 
     guardar: function (req, res) {
-        animalesService.crearUno(req.body)
-        res.redirect("/animales");
+        let errores = validationResult(req);
+
+        if (errores.isEmpty()) {
+            animalesService.crearUno(req.body)
+            res.redirect("/animales");
+        } else {
+            res.render("crearAnimal", { errores: errores.array() });
+        }
     },
 
     detalle: function (req, res) {

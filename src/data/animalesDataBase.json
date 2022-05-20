@@ -10,11 +10,7 @@
         "id": 2
     },
     {
-        "id": 3,
-        "imagen": "gatoAd2.jpg",
-        "nombre": "Ana",
-        "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur dolore iusto magnam quaerat molestiae et, eaque maxime porro nam in! Sequi itaque mollitia eos voluptatibus vitae optio facilis repellat dolorum?",
-        "categoria": "Gato"
+        "id": 3
     },
     {
         "id": 4

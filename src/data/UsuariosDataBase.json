@@ -3,7 +3,7 @@
         "id": 1,
         "nombre": "Carlos Salvador",
         "apellido": "Bilardo",
-        "email": "elnarigon@hotmail.com" ,
+        "email": "elnarigon@hotmail.com",
         "contraseña": 1234,
         "recontraseña": 1234,
         "imagen": "gato1.jpg",
@@ -48,8 +48,8 @@
     {
         "id": 6,
         "nombre": "Mauro Javier",
-        "apellido":"Dobler",
-        "email": "dobler123@hotmail.com" ,
+        "apellido": "Dobler",
+        "email": "dobler123@hotmail.com",
         "contraseña": 1234,
         "recontraseña": 1234,
         "categoria": "usuario"
@@ -85,7 +85,7 @@
         "id": 10,
         "nombre": "Maximiliano Ezequiel",
         "apellido": "Nuñez",
-        "email":"maxinuñez@hotmail.com", 
+        "email": "maxinuñez@hotmail.com",
         "contraseña": 1234,
         "recontraseña": 1234,
         "categoria": "usuario"
@@ -94,7 +94,7 @@
         "id": 11,
         "nombre": "Mauricio Nicolás",
         "apellido": "Carrasco",
-        "email":"carrasconicolas@gmail.com", 
+        "email": "carrasconicolas@gmail.com",
         "contraseña": 1234,
         "recontraseña": 1234,
         "categoria": "usuario"
@@ -103,7 +103,7 @@
         "id": 12,
         "nombre": "Diego Alberto",
         "apellido": "Galvan",
-        "email": "galvan@gmail.com", 
+        "email": "galvan@gmail.com",
         "contraseña": 1234,
         "recontraseña": 1234,
         "categoria": "usuario"
@@ -112,7 +112,7 @@
         "id": 13,
         "nombre": "Ramón Alberto",
         "apellido": "Lentini",
-        "email":"losalvoelpibe@hotmail.com", 
+        "email": "losalvoelpibe@hotmail.com",
         "contraseña": 1234,
         "recontraseña": 1234,
         "categoria": "usuario"
@@ -121,7 +121,7 @@
         "id": 14,
         "nombre": "Mauro",
         "apellido": "Boselli",
-        "email":"goleadormauro@hotmail.com", 
+        "email": "goleadormauro@hotmail.com",
         "contraseña": 1234,
         "recontraseña": 1234,
         "categoria": "usuario"
@@ -130,7 +130,7 @@
         "id": 15,
         "nombre": "Gastón Nicolás",
         "apellido": "Fernandez",
-        "email": "lagata@gmail.com", 
+        "email": "lagata@gmail.com",
         "contraseña": 1234,
         "recontraseña": 1234,
         "categoria": "usuario"
@@ -139,7 +139,7 @@
         "id": 16,
         "nombre": "José Luis",
         "apellido": "Calderón",
-        "email":"eselseptimo@hotmail.com", 
+        "email": "eselseptimo@hotmail.com",
         "contraseña": 1234,
         "recontraseña": 1234,
         "categoria": "usuario"
@@ -148,7 +148,7 @@
         "id": 17,
         "nombre": "Juan Manuel",
         "apellido": "Salgueiro",
-        "email": "juanms@gmail.com", 
+        "email": "juanms@gmail.com",
         "contraseña": 1234,
         "recontraseña": 1234,
         "categoria": "usuario"
@@ -156,8 +156,8 @@
     {
         "id": 18,
         "nombre": "Cristian Nicolás",
-        "apellido": "Sanchez Prette" ,
-        "email": "enlaultima@hotmail.com", 
+        "apellido": "Sanchez Prette",
+        "email": "enlaultima@hotmail.com",
         "contraseña": 1234,
         "recontraseña": 1234,
         "categoria": "usuario"
@@ -166,7 +166,7 @@
         "id": 19,
         "nombre": "Leandro Damian",
         "apellido": "Benitez",
-        "email":"chino@hotmail.com", 
+        "email": "chino@hotmail.com",
         "contraseña": 1234,
         "recontraseña": 1234,
         "categoria": "usuario"
@@ -175,7 +175,7 @@
         "id": 20,
         "nombre": "Rodrigo",
         "apellido": "Braña",
-        "email": "chapucorazon@hotmail.com", 
+        "email": "chapucorazon@hotmail.com",
         "contraseña": 1234,
         "recontraseña": 1234,
         "categoria": "usuario"
@@ -184,7 +184,7 @@
         "id": 21,
         "nombre": "Ivan Diego",
         "apellido": "Moreno y Fabianesi",
-        "email":"morenodiego@gmail.com", 
+        "email": "morenodiego@gmail.com",
         "contraseña": 1234,
         "recontraseña": 1234,
         "categoria": "usuario"
@@ -193,7 +193,7 @@
         "id": 22,
         "nombre": "Juan Sebastián",
         "apellido": "Verón",
-        "email":"jsveron@gmail.com", 
+        "email": "jsveron@gmail.com",
         "contraseña": 1234,
         "recontraseña": 1234,
         "categoria": "usuario"
@@ -202,7 +202,7 @@
         "id": 23,
         "nombre": "Enzo Nicolás",
         "apellido": "Perez",
-        "email": "enzito@hotmail.com", 
+        "email": "enzito@hotmail.com",
         "contraseña": 1234,
         "recontraseña": 1234,
         "categoria": "usuario"
@@ -211,7 +211,7 @@
         "id": 24,
         "nombre": "Matias Ariel",
         "apellido": "Sanchez",
-        "email":"matisanchez@hotmail.com", 
+        "email": "matisanchez@hotmail.com",
         "contraseña": 1234,
         "recontraseña": 1234,
         "categoria": "usuario"
@@ -219,8 +219,8 @@
     {
         "id": 25,
         "nombre": "Marcos Alberto",
-        "apellido": "Angeleri" ,
-        "email": "marquitos@hotmail.com", 
+        "apellido": "Angeleri",
+        "email": "marquitos@hotmail.com",
         "contraseña": 1234,
         "recontraseña": 1234,
         "categoria": "usuario"
@@ -229,7 +229,7 @@
         "id": 26,
         "nombre": "Agustín",
         "apellido": "Alayes",
-        "email":"buenaalayes@gmail.com", 
+        "email": "buenaalayes@gmail.com",
         "contraseña": 1234,
         "recontraseña": 1234,
         "categoria": "usuario"
@@ -238,7 +238,7 @@
         "id": 27,
         "nombre": "Raul Alejandro",
         "apellido": "Iberbia",
-        "email": "iberbia@hotmail.com", 
+        "email": "iberbia@hotmail.com",
         "contraseña": 1234,
         "recontraseña": 1234,
         "categoria": "usuario"
@@ -247,7 +247,7 @@
         "id": 28,
         "nombre": "Christian Ariel",
         "apellido": "Cellay",
-        "email":"chriscellay@hotmail.com", 
+        "email": "chriscellay@hotmail.com",
         "contraseña": 1234,
         "recontraseña": 1234,
         "categoria": "usuario"
@@ -256,7 +256,7 @@
         "id": 29,
         "nombre": "Leandro",
         "apellido": "Desabato",
-        "email": "ldesabato@hotmail.com", 
+        "email": "ldesabato@hotmail.com",
         "contraseña": 1234,
         "recontraseña": 1234,
         "categoria": "usuario"
@@ -265,9 +265,18 @@
         "id": 30,
         "nombre": "Mariano Gonzalo",
         "apellido": "Andujar",
-        "email": "mandujar@gmail.com" ,
+        "email": "mandujar@gmail.com",
         "contraseña": 1234,
         "recontraseña": 1234,
         "categoria": "usuario"
+    },
+    {
+        "id": 1652290654205,
+        "nombre": "fede",
+        "apellido": "re",
+        "DNI": "22555666",
+        "email": "fede@hot.com",
+        "password": "123",
+        "repetir-password": "123"
     }
 ]
