@@ -23,7 +23,7 @@ const animalesController = {
             animalesService.crearUno(req.body)
             res.redirect("/animales");
         } else {
-            res.render("crearAnimal", { errores: errores.array() });
+            res.render("crearAnimal", { errores: errores.array(), viejo: req.body });
         }
     },
 

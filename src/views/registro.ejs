@@ -22,21 +22,25 @@
                             <div class="div-container">
                                 <label for="nombre"></label>
                                 <input type="text" name="nombre" id="nombre" placeholder="Nombre"
-                                    class="login-input-class" />
+                                    class="login-input-class"
+                                    value="<%= locals.viejo && viejo.nombre ? viejo.nombre : "" %> " />
                             </div>
                             <div class="div-container">
                                 <label for="apellido"></label>
                                 <input type="text" name="apellido" id="apellido" placeholder="Apellido"
-                                    class="login-input-class" />
+                                    class="login-input-class"
+                                    value="<%= locals.viejo && viejo.apellido ? viejo.apellido : "" %> " />
                             </div>
                             <div class="div-container">
                                 <label for="DNI"></label>
-                                <input type="text" name="DNI" id="DNI" placeholder="DNI" class="login-input-class" />
+                                <input type="text" name="DNI" id="DNI" placeholder="DNI" class="login-input-class"
+                                    value="<%= locals.viejo && viejo.DNI ? viejo.DNI : "" %> " />
                             </div>
                             <div class="div-container">
                                 <label for="email"></label>
                                 <input type="email" name="email" id="email" placeholder="Correo electrónico"
-                                    class="login-input-class" />
+                                    class="login-input-class"
+                                    value="<%= locals.viejo && viejo.email ? viejo.email : "" %> " />
                             </div>
                             <div class="div-container">
                                 <label class="imagen-perfil">Imagen de perfil</label>

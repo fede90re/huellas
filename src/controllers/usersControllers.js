@@ -14,7 +14,10 @@ const usersControllers = {
             usersService.crearUno(req.body)
             res.redirect("/")
         } else {
-            res.render("registro", { errores: errores.array() });
+            res.render("registro", {
+                errores: errores.array(),
+                viejo: req.body
+            });
         }
     },
 

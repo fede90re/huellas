@@ -278,5 +278,14 @@
         "email": "fede@hot.com",
         "password": "123",
         "repetir-password": "123"
+    },
+    {
+        "id": 1653054060798,
+        "nombre": "Federico  ",
+        "apellido": "Re  ",
+        "DNI": "35610205  ",
+        "email": "fede.re@hotmail.com",
+        "password": "1234",
+        "repetir-password": "1234"
     }
 ]

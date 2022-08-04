@@ -7,13 +7,25 @@
         "categoria": "Gato"
     },
     {
-        "id": 2
+        "id": 2,
+        "imagen": "perroAd3.jpg",
+        "nombre": "Luna",
+        "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur dolore iusto magnam quaerat molestiae et, eaque maxime porro nam in! Sequi itaque mollitia eos voluptatibus vitae optio facilis repellat dolorum?",
+        "categoria": "Perro"
     },
     {
-        "id": 3
+        "id": 3,
+        "imagen": "gatoAdop2.jpg",
+        "nombre": "Negro",
+        "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur dolore iusto magnam quaerat molestiae et, eaque maxime porro nam in! Sequi itaque mollitia eos voluptatibus vitae optio facilis repellat dolorum?",
+        "categoria": "Gato"
     },
-    {
-        "id": 4
+     {
+        "id": 4,
+        "imagen": "perroAd4.jpg",
+        "nombre": "Rulo",
+        "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur dolore iusto magnam quaerat molestiae et, eaque maxime porro nam in! Sequi itaque mollitia eos voluptatibus vitae optio facilis repellat dolorum?",
+        "categoria": "Perro"
     },
     {
         "id": 5,
@@ -32,7 +44,7 @@
     {
         "id": 7,
         "imagen": "gatoAdo4.jpg",
-        "nombre": "Sandwich",
+        "nombre": "Salamanca",
         "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur dolore iusto magnam quaerat molestiae et, eaque maxime porro nam in! Sequi itaque mollitia eos voluptatibus vitae optio facilis repellat dolorum?",
         "categoria": "Gato"
     },
@@ -155,14 +167,26 @@
         "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur dolore iusto magnam quaerat molestiae et, eaque maxime porro nam in! Sequi itaque mollitia eos voluptatibus vitae optio facilis repellat dolorum?",
         "categoria": "Perro"
     },
-    {
-        "id": 25
+   {
+        "id": 25,
+        "imagen": "gatoAdo4.jpg",
+        "nombre": "Sandwich",
+        "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur dolore iusto magnam quaerat molestiae et, eaque maxime porro nam in! Sequi itaque mollitia eos voluptatibus vitae optio facilis repellat dolorum?",
+        "categoria": "Gato"
     },
     {
-        "id": 26
+        "id": 26,
+        "imagen": "perroAd3.jpg",
+        "nombre": "Luna",
+        "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur dolore iusto magnam quaerat molestiae et, eaque maxime porro nam in! Sequi itaque mollitia eos voluptatibus vitae optio facilis repellat dolorum?",
+        "categoria": "Perro"
     },
     {
-        "id": 27
+        "id": 27,
+        "imagen": "gatoAdop2.jpg",
+        "nombre": "Negro",
+        "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur dolore iusto magnam quaerat molestiae et, eaque maxime porro nam in! Sequi itaque mollitia eos voluptatibus vitae optio facilis repellat dolorum?",
+        "categoria": "Gato"
     },
     {
         "id": 28,
@@ -171,8 +195,12 @@
         "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur dolore iusto magnam quaerat molestiae et, eaque maxime porro nam in! Sequi itaque mollitia eos voluptatibus vitae optio facilis repellat dolorum?",
         "categoria": "Perro"
     },
-    {
-        "id": 29
+  {
+        "id": 29,
+        "imagen": "gato123.jpg",
+        "nombre": "piqui",
+        "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur dolore iusto magnam quaerat molestiae et, eaque maxime porro nam in! Sequi itaque mollitia eos voluptatibus vitae optio facilis repellat dolorum?",
+        "categoria": "Gato"
     },
     {
         "id": 30,

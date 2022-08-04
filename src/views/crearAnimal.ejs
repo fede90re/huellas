@@ -23,8 +23,10 @@
                                 <select class="form-select mb40 mx-auto" aria-label=".form-select example">
                                     <label for="tipo" class="form-label pr25">¿Qué animal es?</label>
                                     <option selected>¿Qué animal es?</option>
-                                    <option value="Gato">Gato</option>
-                                    <option value="Perro">Perro</option>
+                                    <option value="Gato" <%=locals.viejo && viejo.tipo==="Gato" ? "selected" : "" ; %>
+                                        >Gato</option>
+                                    <option value="Perro" <%=locals.viejo && viejo.tipo==="Perro" ? "selected" : "" ; %>
+                                        >Perro</option>
                                 </select>
                                 <div class="mb40 px50 mx-auto">
                                     <label for="edad" class="form-label pr25">Edad</label>
@@ -49,7 +51,8 @@
                                 </div>
                                 <div class="mb40 px50 mx-auto">
                                     <label for="nombre" class="form-label pr25">Nombre</label>
-                                    <input type="nombre" class="form-control" name="nombre" aria-describedby="nombre">
+                                    <input type="nombre" class="form-control" name="nombre" aria-describedby="nombre"
+                                        value="<%= locals.viejo && viejo.nombre ? viejo.nombre : "" %> ">
                                 </div>
                                 <div class="mb40 px50 mx-auto">
                                     <label for="descripcion" class="form-label pr25">Descripcion</label>

@@ -16,7 +16,7 @@ const validandoFormulariosUsuarios = [
 
 const multerDiskStorage = multer.diskStorage({
     destination: (req, file, cb) => {
-        cb(path.join(__dirname, "../../public/img/imgUsuarios"))
+        cb(null, path.join(__dirname, "../../public/img/imgUsuarios"))
     },
     filename: (req, file, cb) => {
         const nuevoNombre = "usuario-" + Date.now() + path.extname(file.originalname);
